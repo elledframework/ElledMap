@@ -422,7 +422,7 @@ var onSingleClick = function(evt) {
 							paysage = JSON.stringify(currentFeature.get(currentFeatureKeys[1]));// Grabs country name
 							paysage=JSON.parse(paysage);
 							popupfile= 'CountryData/'+paysage+'/'+paysage+'_Popup.htm';
-							pagefile = 'CountryData/'+paysage+'/'+paysage+'Page.html';
+							pagefile = 'https://gardenia-lion-c742.squarespace.com/'+paysage;
 							
 							/*document.open(popupfile);
 							base = document.createElement('base');
