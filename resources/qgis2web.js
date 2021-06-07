@@ -195,7 +195,7 @@ var onPointerMove = function(evt) {
 							paysage = JSON.stringify(currentFeature.get(currentFeatureKeys[1]));// Grabs country name
 							paysage=JSON.parse(paysage);
 							popupfile= 'CountryData/'+paysage+'/'+paysage+'_Popup.htm';
-							pagefile = 'https://gardenia-lion-c742.squarespace.com/'+paysage;
+							pagefile = 'https://gardenia-lion-c742.squarespace.com/'+paysage.toLowerCase();
 							
 							/*document.open(popupfile);
 							base = document.createElement('base');
@@ -422,7 +422,7 @@ var onSingleClick = function(evt) {
 							paysage = JSON.stringify(currentFeature.get(currentFeatureKeys[1]));// Grabs country name
 							paysage=JSON.parse(paysage);
 							popupfile= 'CountryData/'+paysage+'/'+paysage+'_Popup.htm';
-							pagefile = 'https://gardenia-lion-c742.squarespace.com/'+paysage;
+							pagefile = 'https://gardenia-lion-c742.squarespace.com/'+paysage.toLowerCase();
 							
 							/*document.open(popupfile);
 							base = document.createElement('base');
