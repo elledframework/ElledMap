@@ -467,7 +467,7 @@ var onSingleClick = function(evt) {
         overlayPopup.setPosition(coord);
 		map.getView().setCenter(coord);
 		map.getView().setZoom(5);
-        content.innerHTML = '<head><base target="_parent"></head><p align="left">'+paysagelink+ '</p><b>'+paysage+'</b> <iframe style="width:100%;min-height:280px;max-height:400px;border:0px;"src="' + popupfile+'"></iframe>';
+        content.innerHTML = '<p align="left">'+paysagelink+ '</p><b>'+paysage+'</b> <iframe style="width:100%;min-height:280px;max-height:400px;border:0px;"src="' + popupfile+'"></iframe>';
         container.style.display = 'block';        
     } else {
         container.style.display = 'none';
