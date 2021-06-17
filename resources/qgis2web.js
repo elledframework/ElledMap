@@ -70,7 +70,7 @@ var featureOverlay = new ol.layer.Vector({
     map: map,
     source: new ol.source.Vector({
         features: collection,
-        useSpatialIndex: false // optional, might improve performance
+        useSpatialIndex: true // optional, might improve performance
     }),
     style: [new ol.style.Style({
         stroke: new ol.style.Stroke({
@@ -92,7 +92,8 @@ var highlight;
 var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
 var onPointerMove = function(evt) {
     if (!doHover && !doHighlight) {
-        return;
+        
+		return;
     }
     var pixel = map.getEventPixel(evt.originalEvent);
     var coord = evt.coordinate;
@@ -106,7 +107,8 @@ var onPointerMove = function(evt) {
 	var paysagelink//added
 	var popupfile='';//added
 	var base;
-	var shouldhighlight=false;
+	var oldcountry;
+	var newcountry=true;
 	var highlightlayer;
 	
     map.forEachFeatureAtPixel(pixel, function(feature, layer) {
@@ -138,14 +140,19 @@ var onPointerMove = function(evt) {
         var clusterFeature;
         if (typeof clusteredFeatures !== "undefined") {
 			
-           
+            var countrydata=feature.get("features"); // features at given pixel
+			var countrydatatypes = countrydata[0]; // retrieves either type or properties
+			var proporties=countrydatatypes.getKeys(); // establishes country info keys: COUNTRY, POP etc.. (not geometry)*/
+			paysage = countrydatatypes.get(proporties[0]);
 		   
+			if (paysage.equals(oldcountry)){
+				newcountry= false;
+			}
+			oldcountry=paysage;
+			
 		    if (doPopup) {
 				
-				var countrydata=feature.get("features"); // features at given pixel
-				var countrydatatypes = countrydata[0]; // retrieves either type or properties
-				var proporties=countrydatatypes.getKeys(); // establishes country info keys: COUNTRY, POP etc.. (not geometry)*/
-				paysage = countrydatatypes.get(proporties[0]);
+				
 				
                 for(var n=0; n<clusteredFeatures.length; n++) {
                     clusterFeature = clusteredFeatures[n]; // returns keys: properties, geometry
@@ -204,7 +211,7 @@ var onPointerMove = function(evt) {
 							document.close(popupfile);*/
 							
 							
-							paysage = paysage
+							
 							//paysagelink = paysage.link(pagefile);
 							
                         } else {
@@ -241,13 +248,15 @@ var onPointerMove = function(evt) {
 //The highlight feature has been modified from the default QGIS2WEB structure to only highlight when the added "highlightlayer" variable is indexed to the layers for which popup windows with additional info is available
 	if (doHighlight) {
 		
-		if (!currentFeature) {
+		
+		
+	if (!currentFeature) {
                 featureOverlay.getSource().removeFeature(highlight);
             }
 		
         if (currentFeature !== highlight) {
 			
-            if (highlightlayer==0 || !currentFeature) {
+            if (highlightlayer==0) {
                 featureOverlay.getSource().removeFeature(highlight);
             }
 			
@@ -294,18 +303,23 @@ var onPointerMove = function(evt) {
 					
 		            
 					if (highlightlayer==1){
+						
+						featureOverlay.getSource().clear()	
 					 	featureOverlay.getSource().addFeature(currentFeature);
 			            featureOverlay.setStyle(highlightStyle);
 						
 					}
 					
 	            }
-				
-	         highlight = currentFeature;  	
+			 
+	         
+		     highlight = currentFeature;  		 
 	    }
+		
+		
 	}
     
-	
+
 	
 	
 
