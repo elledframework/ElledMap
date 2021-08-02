@@ -209,7 +209,7 @@ var onPointerMove = function(evt) {
                             popupField += (currentFeature.get(currentFeatureKeys[i]) != null ? autolinker.link(currentFeature.get(currentFeatureKeys[i]).toLocaleString()) + '</td>' : '');
 							paysage = JSON.stringify(currentFeature.get(currentFeatureKeys[1]));// Grabs country name
 							paysage=JSON.parse(paysage);
-							popupfile= 'CountryData/'+paysage+'/'+paysage+'_Popup.pdf';
+							popupfile= 'CountryData/'+paysage+'/'+paysage+'_Popup.htm';
 							pagefile = 'https://gardenia-lion-c742.squarespace.com/'+paysage.toLowerCase();
 							
 							/*document.open(popupfile);

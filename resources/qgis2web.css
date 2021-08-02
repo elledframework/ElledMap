@@ -96,13 +96,13 @@ img{
 
 #popup{
     position:relative;
-	top:-200px;
+	top:-250px;
 	left:-50%;
 	
 	display:none;
     background-color: white;
     height:auto;
-	
+
 	min-width:40vw;
     max-width:55vw;
 	
