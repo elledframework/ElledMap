@@ -87,7 +87,15 @@ var featureOverlay = new ol.layer.Vector({
 
 var doHighlight = true;
 var doHover = false;
-
+function adapt_links() {
+    var links = document.getElementsByTagName('a');
+ 
+    for (var i = 0; i < links.length; i++) {
+        var link = links[i];
+ 
+        link.href = 'javascript:loadinparent("' + link.href + ', true")';
+    }
+}
 var highlight;
 var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
 var onPointerMove = function(evt) {
@@ -201,7 +209,7 @@ var onPointerMove = function(evt) {
                             popupField += (currentFeature.get(currentFeatureKeys[i]) != null ? autolinker.link(currentFeature.get(currentFeatureKeys[i]).toLocaleString()) + '</td>' : '');
 							paysage = JSON.stringify(currentFeature.get(currentFeatureKeys[1]));// Grabs country name
 							paysage=JSON.parse(paysage);
-							popupfile= 'CountryData/'+paysage+'/'+paysage+'_Popup.htm';
+							popupfile= 'CountryData/'+paysage+'/'+paysage+'_Popup.pdf';
 							pagefile = 'https://gardenia-lion-c742.squarespace.com/'+paysage.toLowerCase();
 							
 							/*document.open(popupfile);
@@ -485,8 +493,10 @@ var onSingleClick = function(evt) {
         overlayPopup.setPosition(coord);
 		map.getView().setCenter(coord);
 		map.getView().setZoom(5);
-        content.innerHTML = '<base target="_top"><p align="left">'+paysagelink+ '</p><b>'+paysage+'</b> <iframe style="width:100%;min-height:280px;max-height:400px;border:0px; "src="' + popupfile+'"><base target="_blank"/></iframe>';
-        container.style.display = 'block';        
+		
+        content.innerHTML = '<base target="_top"><p align="left">'+paysagelink+ '</p><b>'+paysage+'</b> <iframe style="width:100%;min-height:280px;max-height:400px;border:0px; "src="' + popupfile+'"></iframe>';
+        adapt_links()
+		container.style.display = 'block';        
     } else {
         container.style.display = 'none';
         closer.blur();
