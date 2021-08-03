@@ -1,324 +1,1273 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:x="urn:schemas-microsoft-com:office:excel"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-<meta name="Excel Workbook Frameset">
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
 <link rel=File-List href="South%20Africa_Popup_files/filelist.xml">
-<![if !supportTabStrip]>
-<link id="shLink" href="South%20Africa_Popup_files/sheet001.htm">
-
-<link id="shLink">
-
-<script language="JavaScript">
-<!--
- var c_lTabs=1;
-
- var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "South Africa_Popup";
-
-
-
- var c_rgszClr=new Array(8);
- c_rgszClr[0]="window";
- c_rgszClr[1]="buttonface";
- c_rgszClr[2]="windowframe";
- c_rgszClr[3]="windowtext";
- c_rgszClr[4]="threedlightshadow";
- c_rgszClr[5]="threedhighlight";
- c_rgszClr[6]="threeddarkshadow";
- c_rgszClr[7]="threedshadow";
-
- var g_iShCur;
- var g_rglTabX=new Array(c_lTabs);
-
-function fnGetIEVer()
-{
- var ua=window.navigator.userAgent
- var msie=ua.indexOf("MSIE")
- if (msie>0 && window.navigator.platform=="Win32")
-  return parseInt(ua.substring(msie+5,ua.indexOf(".", msie)));
- else
-  return 0;
-}
-
-function fnBuildFrameset()
-{
- var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
-  "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
-  "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
-  "</frameset></frameset><plaintext>";
-
- with (document) {
-  open("text/html","replace");
-  write(szHTML);
-  close();
- }
-
- fnBuildTabStrip();
-}
-
-function fnBuildTabStrip()
-{
- var szHTML=
-  "<html><head><style>.clScroll {font:8pt Courier New;color:"+c_rgszClr[6]+";cursor:default;line-height:10pt;}"+
-  ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:default;line-height:11pt;}</style></head>"+
-  "<body onclick=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" onselectstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+" topmargin=0 leftmargin=0><table cellpadding=0 cellspacing=0 width=100%>"+
-  "<tr><td colspan=6 height=1 bgcolor="+c_rgszClr[2]+"></td></tr>"+
-  "<tr><td style=\"font:1pt\">&nbsp;<td>"+
-  "<td valign=top id=tdScroll class=\"clScroll\" onclick=\"parent.fnFastScrollTabs(0);\" onmouseover=\"parent.fnMouseOverScroll(0);\" onmouseout=\"parent.fnMouseOutScroll(0);\"><a>&#171;</a></td>"+
-  "<td valign=top id=tdScroll class=\"clScroll2\" onclick=\"parent.fnScrollTabs(0);\" ondblclick=\"parent.fnScrollTabs(0);\" onmouseover=\"parent.fnMouseOverScroll(1);\" onmouseout=\"parent.fnMouseOutScroll(1);\"><a>&lt</a></td>"+
-  "<td valign=top id=tdScroll class=\"clScroll2\" onclick=\"parent.fnScrollTabs(1);\" ondblclick=\"parent.fnScrollTabs(1);\" onmouseover=\"parent.fnMouseOverScroll(2);\" onmouseout=\"parent.fnMouseOutScroll(2);\"><a>&gt</a></td>"+
-  "<td valign=top id=tdScroll class=\"clScroll\" onclick=\"parent.fnFastScrollTabs(1);\" onmouseover=\"parent.fnMouseOverScroll(3);\" onmouseout=\"parent.fnMouseOutScroll(3);\"><a>&#187;</a></td>"+
-  "<td style=\"font:1pt\">&nbsp;<td></tr></table></body></html>";
-
- with (frames['frScroll'].document) {
-  open("text/html","replace");
-  write(szHTML);
-  close();
- }
-
- szHTML =
-  "<html><head>"+
-  "<style>A:link,A:visited,A:active {text-decoration:none;"+"color:"+c_rgszClr[3]+";}"+
-  ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt Arial;padding-left:3px;padding-right:3px;text-align:center;}"+
-  ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
-  "</style></head><body onload=\"parent.fnInit();\" onselectstart=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+
-  " topmargin=0 leftmargin=0><table id=tbTabs cellpadding=0 cellspacing=0>";
-
- var iCellCount=(c_lTabs+1)*2;
-
- var i;
- for (i=0;i<iCellCount;i+=2)
-  szHTML+="<col width=1><col>";
-
- var iRow;
- for (iRow=0;iRow<6;iRow++) {
-
-  szHTML+="<tr>";
-
-  if (iRow==5)
-   szHTML+="<td colspan="+iCellCount+"></td>";
-  else {
-   if (iRow==0) {
-    for(i=0;i<iCellCount;i++)
-     szHTML+="<td height=1 class=\"clBorder\"></td>";
-   } else if (iRow==1) {
-    for(i=0;i<c_lTabs;i++) {
-     szHTML+="<td height=1 nowrap class=\"clBorder\">&nbsp;</td>";
-     szHTML+=
-      "<td id=tdTab height=1 nowrap class=\"clTab\" onmouseover=\"parent.fnMouseOverTab("+i+");\" onmouseout=\"parent.fnMouseOutTab("+i+");\">"+
-      "<a href=\""+document.all.item("shLink")[i].href+"\" target=\"frSheet\" id=aTab>&nbsp;"+c_rgszSh[i]+"&nbsp;</a></td>";
-    }
-    szHTML+="<td id=tdTab height=1 nowrap class=\"clBorder\"><a id=aTab>&nbsp;</a></td><td width=100%></td>";
-   } else if (iRow==2) {
-    for (i=0;i<c_lTabs;i++)
-     szHTML+="<td height=1></td><td height=1 class=\"clBorder\"></td>";
-    szHTML+="<td height=1></td><td height=1></td>";
-   } else if (iRow==3) {
-    for (i=0;i<iCellCount;i++)
-     szHTML+="<td height=1></td>";
-   } else if (iRow==4) {
-    for (i=0;i<c_lTabs;i++)
-     szHTML+="<td height=1 width=1></td><td height=1></td>";
-    szHTML+="<td height=1 width=1></td><td></td>";
-   }
-  }
-  szHTML+="</tr>";
- }
-
- szHTML+="</table></body></html>";
- with (frames['frTabs'].document) {
-  open("text/html","replace");
-  charset=document.charset;
-  write(szHTML);
-  close();
- }
-}
-
-function fnInit()
-{
- g_rglTabX[0]=0;
- var i;
- for (i=1;i<=c_lTabs;i++)
-  with (frames['frTabs'].document.all.tbTabs.rows[1].cells[fnTabToCol(i-1)])
-   g_rglTabX[i]=offsetLeft+offsetWidth-6;
-}
-
-function fnTabToCol(iTab)
-{
- return 2*iTab+1;
-}
-
-function fnNextTab(fDir)
-{
- var iNextTab=-1;
- var i;
-
- with (frames['frTabs'].document.body) {
-  if (fDir==0) {
-   if (scrollLeft>0) {
-    for (i=0;i<c_lTabs&&g_rglTabX[i]<scrollLeft;i++);
-    if (i<c_lTabs)
-     iNextTab=i-1;
-   }
-  } else {
-   if (g_rglTabX[c_lTabs]+6>offsetWidth+scrollLeft) {
-    for (i=0;i<c_lTabs&&g_rglTabX[i]<=scrollLeft;i++);
-    if (i<c_lTabs)
-     iNextTab=i;
-   }
-  }
- }
- return iNextTab;
-}
-
-function fnScrollTabs(fDir)
-{
- var iNextTab=fnNextTab(fDir);
-
- if (iNextTab>=0) {
-  frames['frTabs'].scroll(g_rglTabX[iNextTab],0);
-  return true;
- } else
-  return false;
-}
-
-function fnFastScrollTabs(fDir)
-{
- if (c_lTabs>16)
-  frames['frTabs'].scroll(g_rglTabX[fDir?c_lTabs-1:0],0);
- else
-  if (fnScrollTabs(fDir)>0) window.setTimeout("fnFastScrollTabs("+fDir+");",5);
-}
-
-function fnSetTabProps(iTab,fActive)
-{
- var iCol=fnTabToCol(iTab);
- var i;
-
- if (iTab>=0) {
-  with (frames['frTabs'].document.all) {
-   with (tbTabs) {
-    for (i=0;i<=4;i++) {
-     with (rows[i]) {
-      if (i==0)
-       cells[iCol].style.background=c_rgszClr[fActive?0:2];
-      else if (i>0 && i<4) {
-       if (fActive) {
-        cells[iCol-1].style.background=c_rgszClr[2];
-        cells[iCol].style.background=c_rgszClr[0];
-        cells[iCol+1].style.background=c_rgszClr[2];
-       } else {
-        if (i==1) {
-         cells[iCol-1].style.background=c_rgszClr[2];
-         cells[iCol].style.background=c_rgszClr[1];
-         cells[iCol+1].style.background=c_rgszClr[2];
-        } else {
-         cells[iCol-1].style.background=c_rgszClr[4];
-         cells[iCol].style.background=c_rgszClr[(i==2)?2:4];
-         cells[iCol+1].style.background=c_rgszClr[4];
-        }
-       }
-      } else
-       cells[iCol].style.background=c_rgszClr[fActive?2:4];
-     }
-    }
-   }
-   with (aTab[iTab].style) {
-    cursor=(fActive?"default":"hand");
-    color=c_rgszClr[3];
-   }
-  }
- }
-}
-
-function fnMouseOverScroll(iCtl)
-{
- frames['frScroll'].document.all.tdScroll[iCtl].style.color=c_rgszClr[7];
-}
-
-function fnMouseOutScroll(iCtl)
-{
- frames['frScroll'].document.all.tdScroll[iCtl].style.color=c_rgszClr[6];
-}
-
-function fnMouseOverTab(iTab)
-{
- if (iTab!=g_iShCur) {
-  var iCol=fnTabToCol(iTab);
-  with (frames['frTabs'].document.all) {
-   tdTab[iTab].style.background=c_rgszClr[5];
-  }
- }
-}
-
-function fnMouseOutTab(iTab)
-{
- if (iTab>=0) {
-  var elFrom=frames['frTabs'].event.srcElement;
-  var elTo=frames['frTabs'].event.toElement;
-
-  if ((!elTo) ||
-   (elFrom.tagName==elTo.tagName) ||
-   (elTo.tagName=="A" && elTo.parentElement!=elFrom) ||
-   (elFrom.tagName=="A" && elFrom.parentElement!=elTo)) {
-
-   if (iTab!=g_iShCur) {
-    with (frames['frTabs'].document.all) {
-     tdTab[iTab].style.background=c_rgszClr[1];
-    }
-   }
-  }
- }
-}
-
-function fnSetActiveSheet(iSh)
-{
- if (iSh!=g_iShCur) {
-  fnSetTabProps(g_iShCur,false);
-  fnSetTabProps(iSh,true);
-  g_iShCur=iSh;
- }
-}
-
- window.g_iIEVer=fnGetIEVer();
- if (window.g_iIEVer>=4)
-  fnBuildFrameset();
-//-->
-</script>
-<![endif]><!--[if gte mso 9]><xml>
- <x:ExcelWorkbook>
-  <x:ExcelWorksheets>
-   <x:ExcelWorksheet>
-    <x:Name>South Africa_Popup</x:Name>
-    <x:WorksheetSource HRef="South%20Africa_Popup_files/sheet001.htm"/>
-   </x:ExcelWorksheet>
-  </x:ExcelWorksheets>
-  <x:Stylesheet HRef="South%20Africa_Popup_files/stylesheet.css"/>
-  <x:WindowHeight>7920</x:WindowHeight>
-  <x:WindowWidth>21570</x:WindowWidth>
-  <x:WindowTopX>32767</x:WindowTopX>
-  <x:WindowTopY>32767</x:WindowTopY>
-  <x:ProtectStructure>False</x:ProtectStructure>
-  <x:ProtectWindows>False</x:ProtectWindows>
- </x:ExcelWorkbook>
-</xml><![endif]-->
+<style id="South Africa_Workbook_9283_Styles"><!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.font59283
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font69283
+	{color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font79283
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font89283
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font99283
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.xl159283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl659283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl669283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl679283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl689283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl699283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl709283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl719283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl729283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#241C15;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl739283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl749283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:top;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl759283
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:9px;
+	mso-char-indent-count:1;}
+.xl769283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl779283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl789283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl799283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl809283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl819283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl829283
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:9px;
+	mso-char-indent-count:1;}
+.xl839283
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:9px;
+	mso-char-indent-count:1;}
+.xl849283
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+--></style>
 </head>
 
-<frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="South%20Africa_Popup_files/sheet001.htm" name="frSheet">
- <frame src="South%20Africa_Popup_files/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
- <noframes>
-  <body>
-   <p>This page uses frames, but your browser doesn't support them.</p>
-  </body>
- </noframes>
-</frameset>
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Excel's Publish as Web
+Page wizard.-->
+<!--If the same item is republished from Excel, all information between the DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id="South Africa_Workbook_9283" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=1055 style='border-collapse:
+ collapse;table-layout:fixed;width:792pt'>
+ <col width=477 style='mso-width-source:userset;mso-width-alt:17444;width:358pt'>
+ <col width=130 style='mso-width-source:userset;mso-width-alt:4754;width:98pt'>
+ <col width=64 span=7 style='width:48pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl159283 width=477 style='height:15.0pt;width:358pt'></td>
+  <td class=xl159283 width=130 style='width:98pt'></td>
+  <td class=xl159283 width=64 style='width:48pt'></td>
+  <td class=xl159283 width=64 style='width:48pt'></td>
+  <td class=xl159283 width=64 style='width:48pt'></td>
+  <td class=xl159283 width=64 style='width:48pt'></td>
+  <td class=xl159283 width=64 style='width:48pt'></td>
+  <td class=xl159283 width=64 style='width:48pt'></td>
+  <td class=xl159283 width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl659283 style='height:15.75pt'>South Africa</td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt;mso-yfti-firstrow:
+  yes;mso-yfti-irow:0'>
+  <td height=21 class=xl669283 width=477 style='height:15.75pt;width:358pt'><span
+  style='mso-ansi-language:EN-CA'>Population</span></td>
+  <td class=xl779283 width=130 style='width:98pt'><span lang=EN-GB><span
+  lang=EN-CA style='mso-ansi-language:EN-CA'><a
+  href="https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ZA"
+  target="_parent"><span style='color:#0070C0'>59,308,690 (2020)</span></a></span></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt;mso-yfti-irow:
+  1'>
+  <td height=21 class=xl679283 width=477 style='height:15.75pt;width:358pt'><span
+  style='mso-ansi-language:EN-CA'>Metal/ Ore Exports (% of Total Merchandise
+  Exports)</span></td>
+  <td class=xl789283 width=130 style='width:98pt'><span lang=EN-GB><span
+  lang=EN-CA style='mso-ansi-language:EN-CA'><a
+  href="https://data.worldbank.org/indicator/TX.VAL.MMTL.ZS.UN?locations=ZA"
+  target="_parent"><span style='color:#0070C0'>28.5% (2019)</span></a></span></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt;mso-yfti-irow:
+  2'>
+  <td height=21 class=xl679283 width=477 style='height:15.75pt;width:358pt'><span
+  style='mso-ansi-language:EN-CA'>Fuel Exports (% of Total Merchandise Exports)</span></td>
+  <td class=xl789283 width=130 style='width:98pt'><span lang=EN-GB><span
+  lang=EN-CA style='mso-ansi-language:EN-CA'><a
+  href="https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN?locations=ZA"
+  target="_parent"><span style='color:#0070C0'>10% (2019)</span></a></span></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt;mso-yfti-irow:
+  3'>
+  <td height=21 class=xl679283 width=477 style='height:15.75pt;width:358pt'><span
+  style='mso-ansi-language:EN-CA'>Human Development Index (World Rank)</span></td>
+  <td class=xl789283 width=130 style='width:98pt'><span lang=EN-GB><span
+  lang=EN-CA style='mso-ansi-language:EN-CA'><a
+  href="http://hdr.undp.org/en/content/latest-human-development-index-ranking"
+  target="_parent"><span style='color:#0070C0'>114</span></a></span></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt;mso-yfti-irow:
+  4;mso-yfti-lastrow:yes'>
+  <td height=21 class=xl679283 width=477 style='height:15.75pt;width:358pt'><span
+  style='mso-ansi-language:EN-CA'>EITI Status</span></td>
+  <td class=xl799283 width=130 style='width:98pt'><span lang=EN-GB>None</span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=43 style='mso-height-source:userset;height:32.25pt'>
+  <td height=43 class=xl689283 width=477 style='height:32.25pt;width:358pt'><span
+  style='mso-ansi-language:EN-CA'>* <font class="font59283">World Bank staff
+  estimates through the WITS platform from the Comtrade database maintained by
+  the United Nations Statistics Division.<span
+  style='mso-spacerun:yes'> </span></font></span></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl689283 width=477 style='height:15.0pt;width:358pt'></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl809283 style='height:15.0pt'><span lang=EN-GB><span
+  lang=EN-CA style='mso-ansi-language:EN-CA'><span lang=EN-GB><span lang=EN-CA
+  style='mso-ansi-language:EN-CA'><a
+  href="https://atlas.cid.harvard.edu/countries/246/export-basket"
+  target="_parent"><span style='color:#0070C0;font-weight:700'>Link to key
+  economic information.</span></a></span></span></span></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl699283 style='height:15.0pt'></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl709283 style='height:15.75pt'><span style='mso-ansi-language:
+  EN-CA'>ELLED Relevant Legislation:</span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 style='height:15.75pt'><span lang=EN-GB><a
+  href="https://www.gov.za/sites/default/files/gcis_document/201409/a2-050.pdf"
+  target="_parent"><span style='color:#0070C0'>Petroleum Products Amendment
+  Act, 2005</span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 style='height:15.75pt'><span lang=EN-GB><a
+  href="https://www.gov.za/documents/preferential-procurement-policy-framework-act"
+  target="_parent"><span style='color:#0070C0'>The Preferential Procurement
+  Framework Act, 2000<span style='mso-spacerun:yes'> </span></span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 style='height:15.75pt'><span lang=EN-GB><a
+  href="https://www.gov.za/documents/mineral-and-petroleum-resources-development-act-codes-good-practice-minerals-industry"
+  target="_parent"><span style='color:#0070C0'>Codes of good practice for
+  minerals industry, 2009<span style='mso-spacerun:yes'>  </span></span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 style='height:15.75pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://www.gov.za/documents/mineral-and-petroleum-resources-development-act"
+  target="_parent"><span style='color:#0070C0'>Mineral and Petroleum Resources
+  Development Act, 2002</span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 style='height:15.75pt'><span lang=EN-GB><a
+  href="http://bee.b1sa.co.za/docs/Petroleum%20and%20Liquid%20Fuels%20Industry.pdf"
+  target="_parent"><span style='color:#0070C0'>Charter for the South African
+  Petroleum and Liquid Fuels Industry, 2000</span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 style='height:15.75pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://cer.org.za/wp-content/uploads/2014/02/Regualtions.pdf"
+  target="_parent"><span style='color:#0070C0'>Minerals and Petroleum Resources
+  Development Regulations, 2011</span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 style='height:15.75pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://www.gov.za/sites/default/files/gcis_document/201409/a37-050.pdf"
+  target="_parent"><span style='color:#0070C0'>Precious Mineral Act, 2005</span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 colspan=4 style='height:15.75pt'><span
+  lang=EN-GB style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://www.beesa.co.za/wp-content/uploads/2020/01/Mining-Charter-27-September-2018.pdf"
+  target="_parent"><span style='color:#0070C0'>Broad-Based Black Socio-Economic
+  Empowerment Charter for the South African Mining and Minerals Industry, 2018</span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 colspan=6 style='height:15.75pt'><span
+  lang=EN-GB style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://cer.org.za/wp-content/uploads/2004/05/Implementation-guideline-for-Mining-Charter.pdf"
+  target="_parent"><span style='color:#0070C0'>Implementation Guidelines for
+  the Broad-Based Black Socio-Economic Empowerment Charter for the South
+  African Mining Industry, 2018</span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl819283 style='height:15.75pt'></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl729283 style='height:15.75pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>ELLED
+  Relevant News:</span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl739283 colspan=3 style='height:15.75pt'><span
+  lang=EN-GB><a
+  href="https://www.miningweekly.com/article/sa-mining-supply-chain-firms-struggling-but-current-efforts-raise-hopes-of-better-fortunes-2019-08-23"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>March
+  2019 –<font class="font79283"> </font><font class="font89283">SA Mining
+  Supply Chain Firms Struggling but Current Efforts Raise Hopes of Better
+  Fortunes<span style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl739283 colspan=2 style='height:15.75pt'><span
+  lang=EN-GB><a
+  href="https://www.miningweekly.com/article/local-manufacturers-to-benefit-from-mining-charter-3s-implementation-2019-02-14"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>February
+  2019 – <font class="font89283">Local Manufacturers to Benefit from Mining
+  Charter 3’s Implementation<span style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl739283 style='height:15.75pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://lestimes.com/stop-exporting-jobs-mines-told/" target="_parent"><span
+  style='color:windowtext;text-decoration:none'>September 2018 – <font
+  class="font89283">Stop Exporting Jobs-Mines Told<span
+  style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl739283 style='height:15.75pt'><span lang=EN-GB><a
+  href="https://www.miningweekly.com/article/mantashe-confirms-gazetting-of-mining-charter-3-2018-09-27/rep_id:3650"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>September
+  2018 – <font class="font89283">Mantashe Confirms Gazetting of Mining Charter
+  3</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl739283 colspan=3 style='height:15.75pt'><span
+  lang=EN-GB><a
+  href="https://www.lexology.com/library/detail.aspx?g=4c314092-9e25-4ab8-82d3-568392931fed"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>August
+  2018 – <font class="font89283">Mining Commission Calls for Mining Licence
+  Holders to Submit Local Content Compliance Plan</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr class=xl749283 height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl739283 style='height:15.0pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://im-mining.com/2018/08/06/multotec-first-sabs-local-content-verification/"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>June
+  2018 – <font class="font89283">Multotec is First up for SABS Local Content
+  Verification</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl739283 colspan=3 style='height:15.75pt'><span
+  lang=EN-GB style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://www.news24.com/fin24/companies/mining/public-has-30-days-to-comment-as-mantashe-releases-long-awaited-draft-mining-charter-20180615-2"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>June
+  2018 –<font class="font79283"> </font><font class="font89283">Public has 30
+  days to Comment as Mantashe Releases Long-awaited Draft Mining Charter<span
+  style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl739283 style='height:15.75pt'><span lang=EN-GB><a
+  href="https://www.bloomberg.com/news/articles/2018-04-04/south-africa-court-backs-mining-industry-on-black-ownership-rule"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>April
+  2018 – <font class="font89283">South African Miners Win Court Fight on Black
+  Ownership Rule</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr class=xl749283 height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl739283 style='height:15.0pt'><span lang=EN-GB><a
+  href="https://www.miningweekly.com/article/chambers-interdict-application-likely-to-succeed-attorney-2017-07-12"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>July
+  2017 – <font class="font89283">Chamber’s Interdict Application Likely to
+  Succeed - Attorney</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+ </tr>
+ <tr class=xl749283 height=19 style='mso-height-source:userset;height:14.25pt'>
+  <td height=19 class=xl719283 style='height:14.25pt'></td>
+  <td class=xl159283></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+  <td class=xl749283 width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl729283 style='height:15.0pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Analysis
+  and Case Studies:</span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl739283 colspan=2 style='height:15.0pt'><span
+  lang=EN-GB><a
+  href="https://theconversation.com/beneficiation-is-touted-as-a-silver-bullet-why-it-might-not-be-110224"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>Bam and
+  De Bruyne (2019) – <font class="font89283">Beneficiation is Touted as a
+  Silver Bullet. Why it might not be.</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl739283 colspan=2 style='height:15.0pt'><span
+  lang=EN-GB><a
+  href="https://www.miningreview.com/coal/tech-news-transforming-the-industrial-landscape-in-south-africa/"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>Mining
+  Review Africa (2019) – <font class="font89283">TECH NEWS: Transforming the
+  Industrial Landscape in South Africa</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl739283 style='height:15.0pt'><span lang=EN-GB><a
+  href="https://www.iisd.org/sites/default/files/publications/case-study-south-africa-horizontal-linkages.pdf"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>Dolo et
+  al. (2018) –<font class="font79283"> </font><font class="font89283">South
+  Africa: Horizontal Linkages</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl739283 style='height:15.0pt'><span lang=EN-GB><a
+  href="https://www.iisd.org/sites/default/files/publications/case-study-south-africa-direct-employment.pdf"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>Tim
+  Grice (2018) –<font class="font69283"> </font><font class="font89283">South
+  Africa: Direct Employment<span style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl739283 style='height:15.0pt'><span lang=EN-GB><a
+  href="https://www.iisd.org/sites/default/files/publications/case-study-south-africa-upstream-linkages.pdf"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>Geipel
+  and Nickerson (2018) – <font class="font89283">South Africa: Upstream
+  Linkages<span style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl739283 colspan=9 style='height:15.0pt'><span
+  lang=EN-GB><a
+  href="https://cirdi.ca/wp-content/uploads/2017/04/MSV-EWB-CIRDI-Local-Procurement-Regulation-SA-Namibia-Feb-2017.pdf"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>Geipel
+  et al. (2017) – <font class="font89283">The Relationship Between Local
+  Procurement Strategies of Mining &amp; Their Regulatory Environments: A
+  Comparison of South Africa and Namibia</font></span></a></span></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl739283 colspan=4 style='height:15.0pt'><span
+  lang=EN-GB style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://www.oecd.org/trade/topics/trade-in-raw-materials/documents/trade-raw-materials-south-africa-country-note.pdf"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>Korinek
+  and Ramdoo (2017) – <font class="font89283">Local Content Policies in
+  Minerals-Exporting Countries: The Case of South Africa</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl739283 colspan=6 style='height:15.0pt'><span
+  lang=EN-GB><a
+  href="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Publications/anrc/Anglo_american_corporations_Zimele_enterprise_program.pdf"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>African
+  Natural Resource Center and African Development Bank (2016) – <font
+  class="font89283">Anglo American Corporation’s Zimele Enterprise Program</font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl739283 colspan=3 style='height:15.0pt'><span
+  lang=EN-GB style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://www.extractiveshub.org/servefile/getFile/id/1704"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>Columbia
+  Centre on Sustainable Investment (2015) –<font class="font79283"> </font><font
+  class="font89283">Local Content: South Africa – Mining and Petroleum<span
+  style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl719283 style='height:15.0pt'></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl729283 style='height:15.0pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Relevant
+  Initiatives:<span style='mso-spacerun:yes'> </span></span></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl819283 style='height:15.0pt'><span lang=EN-GB><a
+  href="https://southafrica.angloamerican.com/our-difference/zimele"
+  target="_parent"><span style='color:#0070C0'>Algo Zimele<span
+  style='mso-spacerun:yes'> </span></span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr class=xl759283 height=20 style='height:15.0pt'>
+  <td height=20 class=xl829283 style='height:15.0pt'><span lang=EN-GB><a
+  href="https://southafrica.angloamerican.com/our-stories/paving-the-way-for-smme-success"
+  target="_parent"><span style='color:#0070C0'><font class="font99283">—</font><font
+  class="font89283">2020 COVID-19 Update, Paving the Way for SMME Success<span
+  style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl839283></td>
+  <td class=xl839283></td>
+  <td class=xl839283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+ </tr>
+ <tr class=xl759283 height=20 style='height:15.0pt'>
+  <td height=20 class=xl829283 style='height:15.0pt'><span lang=EN-GB><a
+  href="https://southafrica.angloamerican.com/our-difference/hidden-transformation/procurement-and-enterprise-development"
+  target="_parent"><span style='color:#0070C0'><font class="font99283">—</font><font
+  class="font89283">2016-2017 Update, Procurement and Enterprise
+  Development<span style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl839283></td>
+  <td class=xl839283></td>
+  <td class=xl839283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+ </tr>
+ <tr class=xl759283 height=20 style='height:15.0pt'>
+  <td height=20 class=xl829283 colspan=2 style='height:15.0pt'><span
+  lang=EN-GB><a
+  href="https://commdev.org/pdf/publications/The-Anglo-Zimele-Model.pdf"
+  target="_parent"><span style='color:#0070C0'><font class="font99283">—</font><font
+  class="font89283">2008 Project Report, The Anglo Zimele Model: A Corporate
+  Risk Capital Facility Experience<span style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl839283></td>
+  <td class=xl839283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+  <td class=xl759283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl819283 style='height:15.0pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://www.za.undp.org/content/south_africa/en/home/operations/projects/poverty_reduction/supplier-development-programme-.html"
+  target="_parent"><span style='color:#0070C0'>UNDP Supplier Development
+  Programme<span style='mso-spacerun:yes'> </span></span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl819283 style='height:15.0pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://edgegrowth.com/sme-growth-support/anglo-american-thermal-coal/"
+  target="_parent"><span style='color:#0070C0'>Anglo Coal, Edge Growth
+  Project<span style='mso-spacerun:yes'>  </span></span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl819283 style='height:15.0pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://miningtara.co.za/" target="_parent"><span style='color:#0070C0'>Mining
+  TARA<span style='mso-spacerun:yes'> </span></span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl819283 style='height:15.0pt'><span lang=EN-GB><a
+  href="https://memsa.org.za/" target="_parent"><span style='color:#0070C0'>Mining
+  Equipment Manufacturers of South Africa (Memsa)<span
+  style='mso-spacerun:yes'> </span></span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl819283 style='height:15.0pt'><span lang=EN-GB><a
+  href="http://www.supplierdevelopment.co.za/" target="_parent"><span
+  style='color:#0070C0'>Center for Supplier Development<span
+  style='mso-spacerun:yes'> </span></span></a></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl849283 style='height:15.0pt'><span lang=EN-GB><span
+  style='mso-bidi-font-family:Calibri;mso-bidi-font-weight:bold;mso-bidi-theme-font:
+  minor-latin'><a href="http://www.dsbd.gov.za/?page_id=1218" target="_parent"><span
+  style='color:#0070C0'>Black Business Supplier Development Program (BBSDP)</span></a></span></span></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl769283 style='height:15.0pt'></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl769283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+  <td class=xl159283></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=477 style='width:358pt'></td>
+  <td width=130 style='width:98pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
 </html>
+

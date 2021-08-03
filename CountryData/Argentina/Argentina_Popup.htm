@@ -1,324 +1,740 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:x="urn:schemas-microsoft-com:office:excel"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-<meta name="Excel Workbook Frameset">
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
-<link rel=File-List href="Argentina_Popup_files/filelist.xml">
-<![if !supportTabStrip]>
-<link id="shLink" href="Argentina_Popup_files/sheet001.htm">
-
-<link id="shLink">
-
-<script language="JavaScript">
-<!--
- var c_lTabs=1;
-
- var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Argentina_Popup";
-
-
-
- var c_rgszClr=new Array(8);
- c_rgszClr[0]="window";
- c_rgszClr[1]="buttonface";
- c_rgszClr[2]="windowframe";
- c_rgszClr[3]="windowtext";
- c_rgszClr[4]="threedlightshadow";
- c_rgszClr[5]="threedhighlight";
- c_rgszClr[6]="threeddarkshadow";
- c_rgszClr[7]="threedshadow";
-
- var g_iShCur;
- var g_rglTabX=new Array(c_lTabs);
-
-function fnGetIEVer()
-{
- var ua=window.navigator.userAgent
- var msie=ua.indexOf("MSIE")
- if (msie>0 && window.navigator.platform=="Win32")
-  return parseInt(ua.substring(msie+5,ua.indexOf(".", msie)));
- else
-  return 0;
-}
-
-function fnBuildFrameset()
-{
- var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
-  "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
-  "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
-  "</frameset></frameset><plaintext>";
-
- with (document) {
-  open("text/html","replace");
-  write(szHTML);
-  close();
- }
-
- fnBuildTabStrip();
-}
-
-function fnBuildTabStrip()
-{
- var szHTML=
-  "<html><head><style>.clScroll {font:8pt Courier New;color:"+c_rgszClr[6]+";cursor:default;line-height:10pt;}"+
-  ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:default;line-height:11pt;}</style></head>"+
-  "<body onclick=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" onselectstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+" topmargin=0 leftmargin=0><table cellpadding=0 cellspacing=0 width=100%>"+
-  "<tr><td colspan=6 height=1 bgcolor="+c_rgszClr[2]+"></td></tr>"+
-  "<tr><td style=\"font:1pt\">&nbsp;<td>"+
-  "<td valign=top id=tdScroll class=\"clScroll\" onclick=\"parent.fnFastScrollTabs(0);\" onmouseover=\"parent.fnMouseOverScroll(0);\" onmouseout=\"parent.fnMouseOutScroll(0);\"><a>&#171;</a></td>"+
-  "<td valign=top id=tdScroll class=\"clScroll2\" onclick=\"parent.fnScrollTabs(0);\" ondblclick=\"parent.fnScrollTabs(0);\" onmouseover=\"parent.fnMouseOverScroll(1);\" onmouseout=\"parent.fnMouseOutScroll(1);\"><a>&lt</a></td>"+
-  "<td valign=top id=tdScroll class=\"clScroll2\" onclick=\"parent.fnScrollTabs(1);\" ondblclick=\"parent.fnScrollTabs(1);\" onmouseover=\"parent.fnMouseOverScroll(2);\" onmouseout=\"parent.fnMouseOutScroll(2);\"><a>&gt</a></td>"+
-  "<td valign=top id=tdScroll class=\"clScroll\" onclick=\"parent.fnFastScrollTabs(1);\" onmouseover=\"parent.fnMouseOverScroll(3);\" onmouseout=\"parent.fnMouseOutScroll(3);\"><a>&#187;</a></td>"+
-  "<td style=\"font:1pt\">&nbsp;<td></tr></table></body></html>";
-
- with (frames['frScroll'].document) {
-  open("text/html","replace");
-  write(szHTML);
-  close();
- }
-
- szHTML =
-  "<html><head>"+
-  "<style>A:link,A:visited,A:active {text-decoration:none;"+"color:"+c_rgszClr[3]+";}"+
-  ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt Arial;padding-left:3px;padding-right:3px;text-align:center;}"+
-  ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
-  "</style></head><body onload=\"parent.fnInit();\" onselectstart=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+
-  " topmargin=0 leftmargin=0><table id=tbTabs cellpadding=0 cellspacing=0>";
-
- var iCellCount=(c_lTabs+1)*2;
-
- var i;
- for (i=0;i<iCellCount;i+=2)
-  szHTML+="<col width=1><col>";
-
- var iRow;
- for (iRow=0;iRow<6;iRow++) {
-
-  szHTML+="<tr>";
-
-  if (iRow==5)
-   szHTML+="<td colspan="+iCellCount+"></td>";
-  else {
-   if (iRow==0) {
-    for(i=0;i<iCellCount;i++)
-     szHTML+="<td height=1 class=\"clBorder\"></td>";
-   } else if (iRow==1) {
-    for(i=0;i<c_lTabs;i++) {
-     szHTML+="<td height=1 nowrap class=\"clBorder\">&nbsp;</td>";
-     szHTML+=
-      "<td id=tdTab height=1 nowrap class=\"clTab\" onmouseover=\"parent.fnMouseOverTab("+i+");\" onmouseout=\"parent.fnMouseOutTab("+i+");\">"+
-      "<a href=\""+document.all.item("shLink")[i].href+"\" target=\"frSheet\" id=aTab>&nbsp;"+c_rgszSh[i]+"&nbsp;</a></td>";
-    }
-    szHTML+="<td id=tdTab height=1 nowrap class=\"clBorder\"><a id=aTab>&nbsp;</a></td><td width=100%></td>";
-   } else if (iRow==2) {
-    for (i=0;i<c_lTabs;i++)
-     szHTML+="<td height=1></td><td height=1 class=\"clBorder\"></td>";
-    szHTML+="<td height=1></td><td height=1></td>";
-   } else if (iRow==3) {
-    for (i=0;i<iCellCount;i++)
-     szHTML+="<td height=1></td>";
-   } else if (iRow==4) {
-    for (i=0;i<c_lTabs;i++)
-     szHTML+="<td height=1 width=1></td><td height=1></td>";
-    szHTML+="<td height=1 width=1></td><td></td>";
-   }
-  }
-  szHTML+="</tr>";
- }
-
- szHTML+="</table></body></html>";
- with (frames['frTabs'].document) {
-  open("text/html","replace");
-  charset=document.charset;
-  write(szHTML);
-  close();
- }
-}
-
-function fnInit()
-{
- g_rglTabX[0]=0;
- var i;
- for (i=1;i<=c_lTabs;i++)
-  with (frames['frTabs'].document.all.tbTabs.rows[1].cells[fnTabToCol(i-1)])
-   g_rglTabX[i]=offsetLeft+offsetWidth-6;
-}
-
-function fnTabToCol(iTab)
-{
- return 2*iTab+1;
-}
-
-function fnNextTab(fDir)
-{
- var iNextTab=-1;
- var i;
-
- with (frames['frTabs'].document.body) {
-  if (fDir==0) {
-   if (scrollLeft>0) {
-    for (i=0;i<c_lTabs&&g_rglTabX[i]<scrollLeft;i++);
-    if (i<c_lTabs)
-     iNextTab=i-1;
-   }
-  } else {
-   if (g_rglTabX[c_lTabs]+6>offsetWidth+scrollLeft) {
-    for (i=0;i<c_lTabs&&g_rglTabX[i]<=scrollLeft;i++);
-    if (i<c_lTabs)
-     iNextTab=i;
-   }
-  }
- }
- return iNextTab;
-}
-
-function fnScrollTabs(fDir)
-{
- var iNextTab=fnNextTab(fDir);
-
- if (iNextTab>=0) {
-  frames['frTabs'].scroll(g_rglTabX[iNextTab],0);
-  return true;
- } else
-  return false;
-}
-
-function fnFastScrollTabs(fDir)
-{
- if (c_lTabs>16)
-  frames['frTabs'].scroll(g_rglTabX[fDir?c_lTabs-1:0],0);
- else
-  if (fnScrollTabs(fDir)>0) window.setTimeout("fnFastScrollTabs("+fDir+");",5);
-}
-
-function fnSetTabProps(iTab,fActive)
-{
- var iCol=fnTabToCol(iTab);
- var i;
-
- if (iTab>=0) {
-  with (frames['frTabs'].document.all) {
-   with (tbTabs) {
-    for (i=0;i<=4;i++) {
-     with (rows[i]) {
-      if (i==0)
-       cells[iCol].style.background=c_rgszClr[fActive?0:2];
-      else if (i>0 && i<4) {
-       if (fActive) {
-        cells[iCol-1].style.background=c_rgszClr[2];
-        cells[iCol].style.background=c_rgszClr[0];
-        cells[iCol+1].style.background=c_rgszClr[2];
-       } else {
-        if (i==1) {
-         cells[iCol-1].style.background=c_rgszClr[2];
-         cells[iCol].style.background=c_rgszClr[1];
-         cells[iCol+1].style.background=c_rgszClr[2];
-        } else {
-         cells[iCol-1].style.background=c_rgszClr[4];
-         cells[iCol].style.background=c_rgszClr[(i==2)?2:4];
-         cells[iCol+1].style.background=c_rgszClr[4];
-        }
-       }
-      } else
-       cells[iCol].style.background=c_rgszClr[fActive?2:4];
-     }
-    }
-   }
-   with (aTab[iTab].style) {
-    cursor=(fActive?"default":"hand");
-    color=c_rgszClr[3];
-   }
-  }
- }
-}
-
-function fnMouseOverScroll(iCtl)
-{
- frames['frScroll'].document.all.tdScroll[iCtl].style.color=c_rgszClr[7];
-}
-
-function fnMouseOutScroll(iCtl)
-{
- frames['frScroll'].document.all.tdScroll[iCtl].style.color=c_rgszClr[6];
-}
-
-function fnMouseOverTab(iTab)
-{
- if (iTab!=g_iShCur) {
-  var iCol=fnTabToCol(iTab);
-  with (frames['frTabs'].document.all) {
-   tdTab[iTab].style.background=c_rgszClr[5];
-  }
- }
-}
-
-function fnMouseOutTab(iTab)
-{
- if (iTab>=0) {
-  var elFrom=frames['frTabs'].event.srcElement;
-  var elTo=frames['frTabs'].event.toElement;
-
-  if ((!elTo) ||
-   (elFrom.tagName==elTo.tagName) ||
-   (elTo.tagName=="A" && elTo.parentElement!=elFrom) ||
-   (elFrom.tagName=="A" && elFrom.parentElement!=elTo)) {
-
-   if (iTab!=g_iShCur) {
-    with (frames['frTabs'].document.all) {
-     tdTab[iTab].style.background=c_rgszClr[1];
-    }
-   }
-  }
- }
-}
-
-function fnSetActiveSheet(iSh)
-{
- if (iSh!=g_iShCur) {
-  fnSetTabProps(g_iShCur,false);
-  fnSetTabProps(iSh,true);
-  g_iShCur=iSh;
- }
-}
-
- window.g_iIEVer=fnGetIEVer();
- if (window.g_iIEVer>=4)
-  fnBuildFrameset();
-//-->
-</script>
-<![endif]><!--[if gte mso 9]><xml>
- <x:ExcelWorkbook>
-  <x:ExcelWorksheets>
-   <x:ExcelWorksheet>
-    <x:Name>Argentina_Popup</x:Name>
-    <x:WorksheetSource HRef="Argentina_Popup_files/sheet001.htm"/>
-   </x:ExcelWorksheet>
-  </x:ExcelWorksheets>
-  <x:Stylesheet HRef="Argentina_Popup_files/stylesheet.css"/>
-  <x:WindowHeight>7920</x:WindowHeight>
-  <x:WindowWidth>21570</x:WindowWidth>
-  <x:WindowTopX>32767</x:WindowTopX>
-  <x:WindowTopY>32767</x:WindowTopY>
-  <x:ProtectStructure>False</x:ProtectStructure>
-  <x:ProtectWindows>False</x:ProtectWindows>
- </x:ExcelWorkbook>
-</xml><![endif]-->
+<link rel=File-List href="Argentina_Workbook_files/filelist.xml">
+<style id="Argentina_Workbook_31591_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.font031591
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font531591
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font631591
+	{color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font731591
+	{color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font831591
+	{color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font931591
+	{color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font1031591
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.xl1531591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6531591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6631591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6731591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6831591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6931591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7031591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7131591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7231591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7331591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7431591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7531591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7631591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7731591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7831591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:top;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7931591
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+-->
+</style>
 </head>
 
-<frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="Argentina_Popup_files/sheet001.htm" name="frSheet">
- <frame src="Argentina_Popup_files/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
- <noframes>
-  <body>
-   <p>This page uses frames, but your browser doesn't support them.</p>
-  </body>
- </noframes>
-</frameset>
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Excel's Publish as Web
+Page wizard.-->
+<!--If the same item is republished from Excel, all information between the DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id="Argentina_Workbook_31591" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=983 style='border-collapse:
+ collapse;table-layout:fixed;width:737pt'>
+ <col width=564 style='mso-width-source:userset;mso-width-alt:20626;width:423pt'>
+ <col width=163 style='mso-width-source:userset;mso-width-alt:5961;width:122pt'>
+ <col width=64 span=4 style='width:48pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl1531591 width=564 style='height:15.0pt;width:423pt'></td>
+  <td class=xl1531591 width=163 style='width:122pt'></td>
+  <td class=xl1531591 width=64 style='width:48pt'></td>
+  <td class=xl1531591 width=64 style='width:48pt'></td>
+  <td class=xl1531591 width=64 style='width:48pt'></td>
+  <td class=xl1531591 width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl6631591 style='height:15.75pt'><span lang=EN-US>Argentina</span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt;mso-yfti-firstrow:
+  yes;mso-yfti-irow:0'>
+  <td height=21 class=xl6731591 width=564 style='height:15.75pt;width:423pt'><span
+  style='mso-ansi-language:EN-CA;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+  minor-latin'>Population</span></td>
+  <td class=xl6831591 width=163 style='width:122pt'><span lang=EN-GB><span
+  style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><a
+  href="https://data.worldbank.org/indicator/SP.POP.TOTL?locations=AR"
+  target="_parent">45,376,763 (2020)</a></span></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt;mso-yfti-irow:
+  1'>
+  <td height=21 class=xl6931591 width=564 style='height:15.75pt;width:423pt'><span
+  style='mso-ansi-language:EN-CA;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+  minor-latin'>Metal/ Ore Exports (% of Total Merchandise Exports)*</span></td>
+  <td class=xl7031591 width=163 style='width:122pt'><span lang=EN-GB><span
+  style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><a
+  href="https://data.worldbank.org/indicator/TX.VAL.MMTL.ZS.UN?locations=AR"
+  target="_parent">0.4% (2019)</a></span></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt;mso-yfti-irow:
+  2'>
+  <td height=21 class=xl6931591 width=564 style='height:15.75pt;width:423pt'><span
+  style='mso-ansi-language:EN-CA;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+  minor-latin'>Fuel Exports (% of Total Merchandise Exports)*</span></td>
+  <td class=xl7031591 width=163 style='width:122pt'><span lang=EN-GB><span
+  lang=EN-CA style='mso-ansi-language:EN-CA;mso-bidi-font-family:Calibri;
+  mso-bidi-theme-font:minor-latin'><a
+  href="https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN?locations=AR"
+  target="_parent">4% (2019)</a></span></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt;mso-yfti-irow:
+  3'>
+  <td height=21 class=xl6931591 width=564 style='height:15.75pt;width:423pt'><span
+  style='mso-ansi-language:EN-CA;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+  minor-latin'>Human Development Index (World Rank)<span
+  style='mso-spacerun:yes'> </span></span></td>
+  <td class=xl7031591 width=163 style='width:122pt'><span lang=EN-GB><span
+  lang=EN-CA style='mso-ansi-language:EN-CA;mso-bidi-font-family:Calibri;
+  mso-bidi-theme-font:minor-latin'><a
+  href="http://hdr.undp.org/en/content/latest-human-development-index-ranking"
+  target="_parent">46</a></span></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=41 style='mso-height-source:userset;height:30.75pt;mso-yfti-irow:
+  4;mso-yfti-lastrow:yes'>
+  <td height=41 class=xl6931591 width=564 style='height:30.75pt;width:423pt'><span
+  lang=EN-GB style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>EITI
+  Status</span></td>
+  <td class=xl7031591 width=163 style='width:122pt'><span lang=EN-GB><span
+  style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><a
+  href="https://eiti.org/argentina" target="_parent">Yet to be assessed against
+  the Standard</a></span></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr class=xl7131591 height=40 style='mso-height-source:userset;height:30.0pt'>
+  <td height=40 class=xl7231591 width=564 style='height:30.0pt;width:423pt'>* <font
+  class="font531591">World Bank staff estimates through the WITS platform from
+  the Comtrade database maintained by the United Nations Statistics
+  Division.<span style='mso-spacerun:yes'> </span></font></td>
+  <td class=xl7131591 width=163 style='width:122pt'></td>
+  <td class=xl7131591 width=64 style='width:48pt'></td>
+  <td class=xl7131591 width=64 style='width:48pt'></td>
+  <td class=xl7131591 width=64 style='width:48pt'></td>
+  <td class=xl7131591 width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl6531591 style='height:15.0pt'></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl7331591 style='height:15.0pt'><a
+  href="https://atlas.cid.harvard.edu/countries/8/export-basket"
+  target="_parent"><span style='font-weight:700'>Link to key economic
+  information.</span></a></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7431591 style='height:15.75pt'></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7431591 style='height:15.75pt'>ELLED Relevant
+  Legislation:</td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7531591 style='height:15.75pt'><span lang=EN-US><a
+  href="http://www.infoleg.gob.ar/basehome/actos_gobierno/actosdegobierno11-5-2009-1.htm"
+  target="_parent">National Mining Plan, 2009<font class="font731591">
+  (Spanish)</font></a></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7531591 style='height:15.75pt'><span lang=EN-US><a
+  href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/335000-339999/339338/norma.htm"
+  target="_parent">Social Mining Plan, 2020<font class="font731591"> (Spanish)</font></a></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7531591 style='height:15.75pt'><span lang=EN-US><a
+  href="http://www.saij.gob.ar/3616-local-santa-cruz-creacion-registro-unico-proveedores-actividades-economicas-ambito-ministerio-produccion-comercio-industria-provincia-santa-cruz-lpz0003616-2018-09-13/123456789-0abc-defg-616-3000zvorpyel?utm_source=newsletter-semanal&amp;utm_medium=email&amp;utm_term=semanal&amp;utm_campaign=ley-provincial"
+  target="_parent">Creation of the Registry of Suppliers of Economic
+  Activities, 2018</a></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7531591 style='height:15.75pt'></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7431591 style='height:15.75pt'><span lang=EN-US>ELLED
+  Relevant News:</span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7631591 colspan=4 style='height:15.75pt'><span
+  lang=EN-GB style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://laopinionaustral.com.ar/edicion-impresa/desde-produccion-trabajan-para-que-las-mineras-cumplan-con-el-compre-local-368029.html"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>June
+  2021 – <font class="font631591">The Ministry of Production Works Towards the
+  Goal of Mining Companies to Comply with Local Procurement</font><font
+  class="font731591"> (Spanish)</font></span></a></span></td>
+  <td class=xl7631591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl6531591 colspan=3 style='height:15.75pt'>May 2021 –
+  More than 60 Companies Interested in the Mining Registry of the Argentinian
+  Northern Province<font class="font831591">&nbsp;</font><font
+  class="font031591"> (Spanish)</font></td>
+  <td class=xl6531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl7631591 colspan=6 style='height:15.0pt'><span
+  lang=EN-GB><a
+  href="http://clippingminero.com.ar/buscan-que-al-menos-el-60-de-las-contrataciones-de-las-mineras-que-operan-en-salta-sean-con-pymes-locales/"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>July
+  2020 – <font class="font631591">The Government of Salta wants that at least
+  60% of the Contracts of Mining Companies Operating in the Province to be with
+  Local SMEs</font><font class="font731591"> (Spanish)</font><font
+  class="font931591">&nbsp;</font></span></a></span></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl6531591 colspan=2 style='height:15.75pt'><span
+  lang=EN-GB>September 2020 – Argentina Pumps US$13mn more into Industrial
+  Supplier Development Scheme <font class="font831591">&nbsp;</font></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl6531591 style='height:15.75pt'></td>
+  <td class=xl6531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7431591 style='height:15.75pt'><span lang=EN-US>Analysis
+  and Case Studies:</span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7731591 colspan=3 style='height:15.75pt'><span
+  lang=EN-US>Obaya et al. (2021) – <font class="font1031591">Curb your
+  Enthusiasm. Challenges to the Development of Lithium-based Linkages in
+  Argentina</font><font class="font531591"> (Paywall)</font></span></td>
+  <td class=xl7731591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7631591 colspan=3 style='height:15.75pt'><span lang=EN><a
+  href="https://www.argentina.gob.ar/sites/default/files/bid-litio-final.pdf"
+  target="_parent"><span style='color:windowtext;text-decoration:none'>López et
+  al. (2019) – <font class="font631591">Lithium in Argentina Opportunities and
+  Challenges for the Development of the Value Chain</font><font
+  class="font931591"> </font><font class="font731591">(Spanish)<span
+  style='mso-spacerun:yes'> </span></font></span></a></span></td>
+  <td class=xl7631591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7631591 style='height:15.75pt'></td>
+  <td class=xl7631591></td>
+  <td class=xl7631591></td>
+  <td class=xl7631591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+  <td height=21 class=xl7431591 style='height:15.75pt'>Relevant Initiatives:</td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr class=xl7831591 height=21 style='height:15.75pt'>
+  <td height=21 class=xl7531591 style='height:15.75pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://www.argentina.gob.ar/acceder-al-programa-de-desarrollo-de-proveedores"
+  target="_parent">National Supplier Development Program for Argentinian mining
+  suppliers<font class="font731591"> (Spanish)&nbsp;</font></a></span></td>
+  <td class=xl7531591></td>
+  <td class=xl7831591 width=64 style='width:48pt'></td>
+  <td class=xl7831591 width=64 style='width:48pt'></td>
+  <td class=xl7831591 width=64 style='width:48pt'></td>
+  <td class=xl7831591 width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl7531591 style='height:15.0pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://www.capmin.com.ar/actividades/" target="_parent">Argentian
+  Chamber of Mining Suppliers<font class="font731591"> (Spanish)&nbsp;</font></a></span></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl7531591 style='height:15.0pt'><span lang=EN-GB
+  style='mso-bidi-font-family:Symbol;mso-fareast-font-family:Symbol'><a
+  href="https://produccionsalta.gob.ar/producto/registro-provincial-de-proveedores-locales-de-empresas-mineras/"
+  target="_parent">Registry of Local Suppliers of Mining Companies for the
+  Province of Salta<font class="font731591"> (Spanish)&nbsp;</font></a></span></td>
+  <td class=xl7531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+  <td class=xl1531591></td>
+ </tr>
+ <tr class=xl7831591 height=21 style='height:15.75pt'>
+  <td height=21 class=xl7931591 style='height:15.75pt'></td>
+  <td class=xl1531591></td>
+  <td class=xl7831591 width=64 style='width:48pt'></td>
+  <td class=xl7831591 width=64 style='width:48pt'></td>
+  <td class=xl7831591 width=64 style='width:48pt'></td>
+  <td class=xl7831591 width=64 style='width:48pt'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=564 style='width:423pt'></td>
+  <td width=163 style='width:122pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
 </html>
