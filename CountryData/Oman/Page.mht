@@ -1,17 +1,23 @@
-<html xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:x="urn:schemas-microsoft-com:office:excel"
-xmlns="http://www.w3.org/TR/REC-html40">
+MIME-Version: 1.0
+X-Document-Type: Worksheet
+Content-Location: file:///C:/26799145/Page.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
 
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=Excel.Sheet>
-<meta name=Generator content="Microsoft Excel 15">
-<link rel=File-List href="Oman_Popup_files/filelist.xml">
-<style id="Oman_Workbook_12835_Styles">
-<!--table
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 15">
+<link rel=3DFile-List href=3D"Page_files/filelist.xml">
+<style id=3D"Oman_Workbook_7919_Styles"><!--table
 	{mso-displayed-decimal-separator:"\.";
 	mso-displayed-thousand-separator:"\,";}
-.font512835
+.font57919
 	{color:#0070C0;
 	font-size:11.0pt;
 	font-weight:400;
@@ -20,7 +26,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	text-underline-style:single;
 	font-family:Calibri, sans-serif;
 	mso-font-charset:0;}
-.font612835
+.font67919
 	{color:black;
 	font-size:11.0pt;
 	font-weight:400;
@@ -28,7 +34,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	text-decoration:none;
 	font-family:Calibri, sans-serif;
 	mso-font-charset:0;}
-.font712835
+.font77919
 	{color:windowtext;
 	font-size:11.0pt;
 	font-weight:400;
@@ -37,25 +43,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	text-underline-style:single;
 	font-family:Calibri, sans-serif;
 	mso-font-charset:0;}
-.font812835
-	{color:windowtext;
-	font-size:12.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:underline;
-	text-underline-style:single;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;}
-.font912835
-	{color:#0070C0;
-	font-size:12.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:underline;
-	text-underline-style:single;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;}
-.font1012835
+.font87919
 	{color:#0070C0;
 	font-size:11.0pt;
 	font-weight:400;
@@ -64,7 +52,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	text-underline-style:single;
 	font-family:Calibri, sans-serif;
 	mso-font-charset:0;}
-.xl1512835
+.xl157919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -82,7 +70,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl6512835
+.xl657919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -101,7 +89,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl6612835
+.xl667919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -119,7 +107,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl6712835
+.xl677919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -138,7 +126,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl6812835
+.xl687919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -160,7 +148,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl6912835
+.xl697919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -183,7 +171,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl7012835
+.xl707919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -201,7 +189,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl7112835
+.xl717919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -219,7 +207,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl7212835
+.xl727919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -237,7 +225,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl7312835
+.xl737919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -255,7 +243,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl7412835
+.xl747919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -273,7 +261,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl7512835
+.xl757919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -291,7 +279,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl7612835
+.xl767919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -309,7 +297,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl7712835
+.xl777919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -327,7 +315,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl7812835
+.xl787919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -345,7 +333,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl7912835
+.xl797919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -364,7 +352,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl8012835
+.xl807919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -382,7 +370,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl8112835
+.xl817919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -401,7 +389,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl8212835
+.xl827919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -419,7 +407,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl8312835
+.xl837919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -437,7 +425,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl8412835
+.xl847919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -455,7 +443,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl8512835
+.xl857919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -473,7 +461,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl8612835
+.xl867919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -491,7 +479,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl8712835
+.xl877919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -514,7 +502,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl8812835
+.xl887919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -537,7 +525,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl8912835
+.xl897919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -555,7 +543,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:normal;}
-.xl9012835
+.xl907919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -574,7 +562,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl9112835
+.xl917919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -593,7 +581,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl9212835
+.xl927919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -612,7 +600,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl9312835
+.xl937919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -630,7 +618,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl9412835
+.xl947919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -648,7 +636,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl9512835
+.xl957919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -666,7 +654,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl9612835
+.xl967919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -685,7 +673,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl9712835
+.xl977919
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -704,26 +692,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl9812835
-	{padding-top:1px;
-	padding-right:1px;
-	padding-left:1px;
-	mso-ignore:padding;
-	color:#0070C0;
-	font-size:12.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:underline;
-	text-underline-style:single;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;
-	mso-number-format:General;
-	text-align:general;
-	vertical-align:middle;
-	mso-background-source:auto;
-	mso-pattern:auto;
-	white-space:nowrap;}
-.xl9912835
+.xl987919
 	{color:#0070C0;
 	font-size:11.0pt;
 	font-weight:400;
@@ -740,7 +709,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	white-space:nowrap;
 	padding-left:12px;
 	mso-char-indent-count:1;}
-.xl10012835
+.xl997919
 	{color:black;
 	font-size:11.0pt;
 	font-weight:400;
@@ -756,7 +725,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	white-space:nowrap;
 	padding-left:12px;
 	mso-char-indent-count:1;}
-.xl10112835
+.xl1007919
 	{color:black;
 	font-size:12.0pt;
 	font-weight:400;
@@ -772,334 +741,407 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	white-space:nowrap;
 	padding-left:12px;
 	mso-char-indent-count:1;}
--->
-</style>
+.xl1017919
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+--></style>
 </head>
 
 <body>
 <!--[if !excel]>&nbsp;&nbsp;<![endif]-->
-<!--The following information was generated by Microsoft Excel's Publish as Web
+<!--The following information was generated by Microsoft Excel's Publish as=
+ Web
 Page wizard.-->
-<!--If the same item is republished from Excel, all information between the DIV
+<!--If the same item is republished from Excel, all information between the=
+ DIV
 tags will be replaced.-->
 <!----------------------------->
 <!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
 <!----------------------------->
 
-<div id="Oman_Workbook_12835" align=center x:publishsource="Excel">
+<div id=3D"Oman_Workbook_7919" align=3Dcenter x:publishsource=3D"Excel">
 
-<table border=0 cellpadding=0 cellspacing=0 width=1076 style='border-collapse:
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D1076 style=3D'bor=
+der-collapse:
  collapse;table-layout:fixed;width:807pt'>
- <col width=568 style='mso-width-source:userset;mso-width-alt:18176;width:426pt'>
- <col width=148 style='mso-width-source:userset;mso-width-alt:4736;width:111pt'>
- <col width=72 span=5 style='width:54pt'>
- <tr height=21 style='height:15.75pt'>
-  <td height=21 class=xl1512835 width=568 style='height:15.75pt;width:426pt'></td>
-  <td class=xl1512835 width=148 style='width:111pt'></td>
-  <td class=xl1512835 width=72 style='width:54pt'></td>
-  <td class=xl1512835 width=72 style='width:54pt'></td>
-  <td class=xl1512835 width=72 style='width:54pt'></td>
-  <td class=xl1512835 width=72 style='width:54pt'></td>
-  <td class=xl1512835 width=72 style='width:54pt'></td>
+ <col width=3D568 style=3D'mso-width-source:userset;mso-width-alt:18176;wid=
+th:426pt'>
+ <col width=3D148 style=3D'mso-width-source:userset;mso-width-alt:4736;widt=
+h:111pt'>
+ <col width=3D72 span=3D5 style=3D'width:54pt'>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl157919 width=3D568 style=3D'height:15.75pt;widt=
+h:426pt'></td>
+  <td class=3Dxl157919 width=3D148 style=3D'width:111pt'></td>
+  <td class=3Dxl157919 width=3D72 style=3D'width:54pt'></td>
+  <td class=3Dxl157919 width=3D72 style=3D'width:54pt'></td>
+  <td class=3Dxl157919 width=3D72 style=3D'width:54pt'></td>
+  <td class=3Dxl157919 width=3D72 style=3D'width:54pt'></td>
+  <td class=3Dxl157919 width=3D72 style=3D'width:54pt'></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl6512835 style='height:15.75pt'>Oman</td>
-  <td class=xl8612835></td>
-  <td class=xl6612835></td>
-  <td class=xl6612835></td>
-  <td class=xl6612835></td>
-  <td class=xl6612835></td>
-  <td class=xl6612835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl657919 style=3D'height:15.75pt'>Oman</td>
+  <td class=3Dxl867919></td>
+  <td class=3Dxl667919></td>
+  <td class=3Dxl667919></td>
+  <td class=3Dxl667919></td>
+  <td class=3Dxl667919></td>
+  <td class=3Dxl667919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl6712835 width=568 style='height:15.75pt;width:426pt'>Population</td>
-  <td class=xl8712835 width=148 style='width:111pt'><a
-  href="https://data.worldbank.org/indicator/SP.POP.TOTL?locations=OM"><span
-  style='color:#0070C0;font-size:11.0pt'>5,106,622 (2020)</span></a></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl677919 width=3D568 style=3D'height:15.75pt;widt=
+h:426pt'>Population</td>
+  <td class=3Dxl877919 width=3D148 style=3D'width:111pt'><a
+  href=3D"https://data.worldbank.org/indicator/SP.POP.TOTL?locations=3DOM">=
+<span
+  style=3D'color:#0070C0;font-size:11.0pt'>5,106,622 (2020)</span></a></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl6812835 width=568 style='height:15.75pt;width:426pt'>Metal/
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl687919 width=3D568 style=3D'height:15.75pt;widt=
+h:426pt'>Metal/
   Ore Exports (% of Total Merchandise Exports)*</td>
-  <td class=xl8812835 width=148 style='width:111pt'><a
-  href="https://data.worldbank.org/indicator/TX.VAL.MMTL.ZS.UN?locations=OM"><span
-  style='color:#0070C0;font-size:11.0pt'>5.4% (2018)</span></a></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+  <td class=3Dxl887919 width=3D148 style=3D'width:111pt'><a
+  href=3D"https://data.worldbank.org/indicator/TX.VAL.MMTL.ZS.UN?locations=
+=3DOM"><span
+  style=3D'color:#0070C0;font-size:11.0pt'>5.4% (2018)</span></a></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl6812835 width=568 style='height:15.75pt;width:426pt'>Fuel
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl687919 width=3D568 style=3D'height:15.75pt;widt=
+h:426pt'>Fuel
   Exports (% of Total Merchandise Exports)*</td>
-  <td class=xl8812835 width=148 style='width:111pt'><a
-  href="https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN?locations=OM"><span
-  style='color:#0070C0;font-size:11.0pt'>75% (2018)</span></a></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+  <td class=3Dxl887919 width=3D148 style=3D'width:111pt'><a
+  href=3D"https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN?locations=
+=3DOM"><span
+  style=3D'color:#0070C0;font-size:11.0pt'>75% (2018)</span></a></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl6812835 width=568 style='height:15.75pt;width:426pt'>Human
-  Development Index (World Rank)<span style='mso-spacerun:yes'> </span></td>
-  <td class=xl8812835 width=148 style='width:111pt'><a
-  href="http://hdr.undp.org/en/content/latest-human-development-index-ranking"><span
-  style='color:#0070C0;font-size:11.0pt'>60</span></a></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl687919 width=3D568 style=3D'height:15.75pt;widt=
+h:426pt'>Human
+  Development Index (World Rank)<span style=3D'mso-spacerun:yes'> </span></=
+td>
+  <td class=3Dxl887919 width=3D148 style=3D'width:111pt'><a
+  href=3D"http://hdr.undp.org/en/content/latest-human-development-index-ran=
+king"><span
+  style=3D'color:#0070C0;font-size:11.0pt'>60</span></a></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=46 style='mso-height-source:userset;height:34.5pt'>
-  <td height=46 class=xl6812835 width=568 style='height:34.5pt;width:426pt'>EITI
+ <tr height=3D46 style=3D'mso-height-source:userset;height:34.5pt'>
+  <td height=3D46 class=3Dxl687919 width=3D568 style=3D'height:34.5pt;width=
+:426pt'>EITI
   Status</td>
-  <td class=xl6912835 width=148 style='width:111pt'>Yet to be assessed against
+  <td class=3Dxl697919 width=3D148 style=3D'width:111pt'>Yet to be assessed=
+ against
   the Standard</td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr class=xl7012835 height=43 style='mso-height-source:userset;height:32.25pt'>
-  <td height=43 class=xl7112835 width=568 style='height:32.25pt;width:426pt'>* <font
-  class="font612835">World Bank staff estimates through the WITS platform from
+ <tr class=3Dxl707919 height=3D43 style=3D'mso-height-source:userset;height=
+:32.25pt'>
+  <td height=3D43 class=3Dxl717919 width=3D568 style=3D'height:32.25pt;widt=
+h:426pt'>* <font
+  class=3D"font67919">World Bank staff estimates through the WITS platform =
+from
   the Comtrade database maintained by the United Nations Statistics
-  Division.<span style='mso-spacerun:yes'> </span></font></td>
-  <td class=xl8912835 width=148 style='width:111pt'></td>
-  <td class=xl7212835 width=72 style='width:54pt'></td>
-  <td class=xl7212835 width=72 style='width:54pt'></td>
-  <td class=xl7212835 width=72 style='width:54pt'></td>
-  <td class=xl7212835 width=72 style='width:54pt'></td>
-  <td class=xl7212835 width=72 style='width:54pt'></td>
+  Division.<span style=3D'mso-spacerun:yes'> </span></font></td>
+  <td class=3Dxl897919 width=3D148 style=3D'width:111pt'></td>
+  <td class=3Dxl727919 width=3D72 style=3D'width:54pt'></td>
+  <td class=3Dxl727919 width=3D72 style=3D'width:54pt'></td>
+  <td class=3Dxl727919 width=3D72 style=3D'width:54pt'></td>
+  <td class=3Dxl727919 width=3D72 style=3D'width:54pt'></td>
+  <td class=3Dxl727919 width=3D72 style=3D'width:54pt'></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl7312835 style='height:15.75pt'></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl737919 style=3D'height:15.75pt'></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr class=xl7512835 height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9012835 style='height:15.75pt'><a
-  href="https://atlas.cid.harvard.edu/countries/167/export-basket"><span
-  style='color:#0070C0;font-size:11.0pt;font-weight:700'>Link to economic
+ <tr class=3Dxl757919 height=3D21 style=3D'mso-height-source:userset;height=
+:15.75pt'>
+  <td height=3D21 class=3Dxl907919 style=3D'height:15.75pt'><a
+  href=3D"https://atlas.cid.harvard.edu/countries/167/export-basket"><span
+  style=3D'color:#0070C0;font-size:11.0pt;font-weight:700'>Link to economic
   information.</span></a></td>
-  <td class=xl7612835></td>
-  <td class=xl7612835></td>
-  <td class=xl7612835></td>
-  <td class=xl7612835></td>
-  <td class=xl7612835></td>
-  <td class=xl7612835></td>
+  <td class=3Dxl767919></td>
+  <td class=3Dxl767919></td>
+  <td class=3Dxl767919></td>
+  <td class=3Dxl767919></td>
+  <td class=3Dxl767919></td>
+  <td class=3Dxl767919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9312835 style='height:15.75pt'></td>
-  <td class=xl7712835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl937919 style=3D'height:15.75pt'></td>
+  <td class=3Dxl777919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl7812835 style='height:15.75pt'>ELLED Relevant
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl787919 style=3D'height:15.75pt'>ELLED Relevant
   Legislation:</td>
-  <td class=xl7712835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+  <td class=3Dxl777919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9112835 style='height:15.75pt'><a
-  href="https://elledframework.github.io/ElledMap/CountryData/Oman/Legislation/Oil%20and%20Gas%20Law%202011.pdf"><span
-  style='color:#0070C0;font-size:11.0pt'>Oil and Gas Law, 2011</span></a></td>
-  <td class=xl7912835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl917919 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Oman/Legisl=
+ation/Oil%20and%20Gas%20Law%202011.pdf"><span
+  style=3D'color:#0070C0;font-size:11.0pt'>Oil and Gas Law, 2011</span></a>=
+</td>
+  <td class=3Dxl797919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl8012835 style='height:15.75pt'>Mining Code, 2020</td>
-  <td class=xl7912835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl807919 style=3D'height:15.75pt'>Mining Code, 20=
+20</td>
+  <td class=3Dxl797919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl8112835 style='height:15.75pt'></td>
-  <td class=xl7912835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl817919 style=3D'height:15.75pt'></td>
+  <td class=3Dxl797919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl8212835 width=568 style='height:15.75pt;width:426pt'>ELLED
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl827919 width=3D568 style=3D'height:15.75pt;widt=
+h:426pt'>ELLED
   Relevant News:</td>
-  <td class=xl7712835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+  <td class=3Dxl777919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9212835 colspan=4 style='height:15.75pt'><a
-  href="https://elledframework.github.io/ElledMap/CountryData/Oman/News/Oman%20Journey%20to%20In-Country%20Value.pdf"><span
-  style='color:#0070C0;font-size:11.0pt'><font class="font712835">December
-  2020<span style='mso-spacerun:yes'>  </span>–</font><font class="font512835">
-  Oman’s Journey to In-Country Value: An Approach to Local Content that Works
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl927919 colspan=3D4 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Oman/News/O=
+man%20Journey%20to%20In-Country%20Value.pdf"><span
+  style=3D'color:#0070C0;font-size:11.0pt'><font class=3D"font77919">Decemb=
+er
+  2020<span style=3D'mso-spacerun:yes'>  </span>–</font><font class=3D"font=
+57919">
+  Oman’s Journey to In-Country Value: An Approach to Local Content that Wor=
+ks
   for Government and the Private Sector</font></span></a></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9212835 style='height:15.75pt'><a
-  href="https://elledframework.github.io/ElledMap/CountryData/Oman/News/New%20regulations%20aim%20to%20boost%20mining%20investment%20in%20Oman.pdf"><span
-  style='color:#0070C0;font-size:11.0pt'><font class="font712835">May 2016<span
-  style='mso-spacerun:yes'>  </span>– </font><font class="font512835">New
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl927919 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Oman/News/N=
+ew%20regulations%20aim%20to%20boost%20mining%20investment%20in%20Oman.pdf">=
+<span
+  style=3D'color:#0070C0;font-size:11.0pt'><font class=3D"font77919">May 20=
+16<span
+  style=3D'mso-spacerun:yes'>  </span>– </font><font class=3D"font57919">New
   Regulations Aim to Boost Mining Investment in Oman</font></span></a></td>
-  <td class=xl9612835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
+  <td class=3Dxl967919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9712835 style='height:15.75pt'></td>
-  <td class=xl9312835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl977919 style=3D'height:15.75pt'></td>
+  <td class=3Dxl937919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl8312835 style='height:15.75pt'>Analysis and Case
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl837919 style=3D'height:15.75pt'>Analysis and Ca=
+se
   Studies:</td>
-  <td class=xl7712835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+  <td class=3Dxl777919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9812835 colspan=7 style='height:15.75pt'><a
-  href="https://elledframework.github.io/ElledMap/CountryData/Oman/Analysis%20and%20Case%20Studies/In-Country_Value_Strategy_Oman.pdf"><span
-  style='color:#0070C0'><font class="font812835">Organisation for Economic
-  Co-operation and Development – </font><font class="font912835">How to Develop
-  a Flexible Long-Term Collaborative Approach to Job Creation and Supplier
-  Development</font></span></a></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl927919 colspan=3D7 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Oman/Analys=
+is%20and%20Case%20Studies/In-Country_Value_Strategy_Oman.pdf"><span
+  style=3D'color:#0070C0;font-size:11.0pt'><font class=3D"font77919">Organi=
+sation
+  for Economic Co-operation and Development – </font><font class=3D"font579=
+19">How
+  to Develop a Flexible Long-Term Collaborative Approach to Job Creation and
+  Supplier Development</font></span></a></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9812835 colspan=6 style='height:15.75pt'><a
-  href="https://elledframework.github.io/ElledMap/CountryData/Oman/Analysis%20and%20Case%20Studies/Oman%20Journey%20to%20In-Country%20Value.pdf"><span
-  style='color:#0070C0'><font class="font812835">Ryan and Macdonald (2020) – </font><font
-  class="font912835">Oman’s Journey to In-Country Value: An Approach to Local
-  Content that Works for Government and the Private Sector</font></span></a></td>
-  <td class=xl9512835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl927919 colspan=3D5 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Oman/Analys=
+is%20and%20Case%20Studies/Oman%20Journey%20to%20In-Country%20Value.pdf"><sp=
+an
+  style=3D'color:#0070C0;font-size:11.0pt'><font class=3D"font77919">Ryan a=
+nd
+  Macdonald (2020) – </font><font class=3D"font57919">Oman’s Journey to
+  In-Country Value: An Approach to Local Content that Works for Government =
+and
+  the Private Sector</font></span></a></td>
+  <td class=3Dxl947919></td>
+  <td class=3Dxl957919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9812835 colspan=5 style='height:15.75pt'><a
-  href="https://www.tandfonline.com/doi/full/10.1080/02646811.2018.1477494?scroll=top&amp;needAccess=true"><span
-  style='color:#0070C0'><font class="font812835">Damilola Olawuyi (2018) –</font><font
-  class="font912835"> Local content requirements in oil and gas contracts:
-  regional trends in the Middle East and North Africa </font><font
-  class="font812835">(Paywall)</font></span></a></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl927919 colspan=3D4 style=3D'height:15.75pt'><a
+  href=3D"https://www.tandfonline.com/doi/full/10.1080/02646811.2018.147749=
+4?scroll=3Dtop&amp;needAccess=3Dtrue"><span
+  style=3D'color:#0070C0;font-size:11.0pt'><font class=3D"font77919">Damilol=
+a
+  Olawuyi (2018) –</font><font class=3D"font57919"> Local content requireme=
+nts in
+  oil and gas contracts: regional trends in the Middle East and North Afric=
+a </font><font
+  class=3D"font77919">(Paywall)</font></span></a></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl9812835 style='height:15.75pt'><a
-  href="https://elledframework.github.io/ElledMap/CountryData/Oman/Analysis%20and%20Case%20Studies/Oman_Iron-ore-Downstream-Beneficiation-Case-Study_March-2016-_CCSI.pdf"><span
-  style='color:#0070C0'><font class="font812835">Jered Talkin (2016) – </font><font
-  class="font912835">Downstream Beneficiation Case Study: Oman</font></span></a></td>
-  <td class=xl9612835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
-  <td class=xl9512835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl927919 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Oman/Analys=
+is%20and%20Case%20Studies/Oman_Iron-ore-Downstream-Beneficiation-Case-Study=
+_March-2016-_CCSI.pdf"><span
+  style=3D'color:#0070C0;font-size:11.0pt'><font class=3D"font77919">Jered =
+Talkin
+  (2016) – </font><font class=3D"font57919">Downstream Beneficiation Case S=
+tudy:
+  Oman</font></span></a></td>
+  <td class=3Dxl967919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
+  <td class=3Dxl957919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl7712835 style='height:15.75pt'></td>
-  <td class=xl7712835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl777919 style=3D'height:15.75pt'></td>
+  <td class=3Dxl777919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='mso-height-source:userset;height:15.75pt'>
-  <td height=21 class=xl7812835 style='height:15.75pt'>Relevant Initiatives</td>
-  <td class=xl7712835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl787919 style=3D'height:15.75pt'>Relevant Initia=
+tives</td>
+  <td class=3Dxl777919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr height=21 style='height:15.75pt'>
-  <td height=21 class=xl8412835 style='height:15.75pt'>In-Country Value (ICV)
-  Committee, <font class="font612835">Ministry of Energy and Minerals</font></td>
-  <td class=xl8512835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
-  <td class=xl7412835></td>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl847919 style=3D'height:15.75pt'>In-Country Valu=
+e (ICV)
+  Committee, <font class=3D"font67919">Ministry of Energy and Minerals</fon=
+t></td>
+  <td class=3Dxl857919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
+  <td class=3Dxl747919></td>
  </tr>
- <tr class=xl10112835 height=21 style='height:15.75pt'>
-  <td height=21 class=xl9912835 style='height:15.75pt'><a
-  href="http://www.incountryvalueoman.net/Opportunities-Status"><span
-  style='color:#0070C0;font-size:11.0pt'><font class="font1012835">–</font><font
-  class="font512835">Procurement Opportunities Database<span
-  style='mso-spacerun:yes'> </span></font></span></a></td>
-  <td class=xl10012835></td>
-  <td class=xl10012835></td>
-  <td class=xl10012835></td>
-  <td class=xl10012835></td>
-  <td class=xl10012835></td>
-  <td class=xl10012835></td>
+ <tr class=3Dxl1007919 height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl987919 style=3D'height:15.75pt'><a
+  href=3D"http://www.incountryvalueoman.net/Opportunities-Status"><span
+  style=3D'color:#0070C0;font-size:11.0pt'><font class=3D"font87919">–</fon=
+t><font
+  class=3D"font57919">Procurement Opportunities Database<span
+  style=3D'mso-spacerun:yes'> </span></font></span></a></td>
+  <td class=3Dxl997919></td>
+  <td class=3Dxl997919></td>
+  <td class=3Dxl997919></td>
+  <td class=3Dxl997919></td>
+  <td class=3Dxl997919></td>
+  <td class=3Dxl997919></td>
  </tr>
- <tr height=21 style='height:15.75pt'>
-  <td height=21 class=xl1512835 style='height:15.75pt'></td>
-  <td class=xl1512835></td>
-  <td class=xl1512835></td>
-  <td class=xl1512835></td>
-  <td class=xl1512835></td>
-  <td class=xl1512835></td>
-  <td class=xl1512835></td>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl1017919 style=3D'height:15.75pt'></td>
+  <td class=3Dxl157919></td>
+  <td class=3Dxl157919></td>
+  <td class=3Dxl157919></td>
+  <td class=3Dxl157919></td>
+  <td class=3Dxl157919></td>
+  <td class=3Dxl157919></td>
  </tr>
  <![if supportMisalignedColumns]>
- <tr height=0 style='display:none'>
-  <td width=568 style='width:426pt'></td>
-  <td width=148 style='width:111pt'></td>
-  <td width=72 style='width:54pt'></td>
-  <td width=72 style='width:54pt'></td>
-  <td width=72 style='width:54pt'></td>
-  <td width=72 style='width:54pt'></td>
-  <td width=72 style='width:54pt'></td>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D568 style=3D'width:426pt'></td>
+  <td width=3D148 style=3D'width:111pt'></td>
+  <td width=3D72 style=3D'width:54pt'></td>
+  <td width=3D72 style=3D'width:54pt'></td>
+  <td width=3D72 style=3D'width:54pt'></td>
+  <td width=3D72 style=3D'width:54pt'></td>
+  <td width=3D72 style=3D'width:54pt'></td>
  </tr>
  <![endif]>
 </table>
@@ -1113,3 +1155,4 @@ tags will be replaced.-->
 </body>
 
 </html>
+
