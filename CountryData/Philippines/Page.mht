@@ -1,0 +1,784 @@
+MIME-Version: 1.0
+X-Document-Type: Worksheet
+Content-Location: file:///C:/26799145/Page.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 15">
+<link rel=3DFile-List href=3D"Page_files/filelist.xml">
+<style id=3D"Philippines_Workbook_29046_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.font029046
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font529046
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font629046
+	{color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.xl1529046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6529046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6629046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6729046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6829046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6929046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7029046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7129046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7229046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7329046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7429046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7529046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7629046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7729046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7829046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7929046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	text-align:center;
+	vertical-align:middle;
+	border:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl8029046
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+-->
+</style>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Excel's Publish as=
+ Web
+Page wizard.-->
+<!--If the same item is republished from Excel, all information between the=
+ DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id=3D"Philippines_Workbook_29046" align=3Dcenter x:publishsource=3D"Ex=
+cel">
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D1183 style=3D'bor=
+der-collapse:
+ collapse;table-layout:fixed;width:888pt'>
+ <col width=3D569 style=3D'mso-width-source:userset;mso-width-alt:20809;wid=
+th:427pt'>
+ <col width=3D166 style=3D'mso-width-source:userset;mso-width-alt:6070;widt=
+h:125pt'>
+ <col width=3D64 span=3D7 style=3D'width:48pt'>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl1529046 width=3D569 style=3D'height:15.0pt;widt=
+h:427pt'></td>
+  <td class=3Dxl7129046 width=3D166 style=3D'width:125pt'></td>
+  <td class=3Dxl1529046 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1529046 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1529046 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1529046 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1529046 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1529046 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1529046 width=3D64 style=3D'width:48pt'></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6629046 style=3D'height:15.75pt'>Philippines</t=
+d>
+  <td class=3Dxl7529046></td>
+  <td class=3Dxl6529046></td>
+  <td class=3Dxl6529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7829046 width=3D569 style=3D'height:15.75pt;wid=
+th:427pt'>Population</td>
+  <td class=3Dxl7929046 width=3D166 style=3D'border-left:none;width:125pt'>=
+<a
+  href=3D"https://data.worldbank.org/indicator/SP.POP.TOTL?locations=3DPH">=
+<span
+  style=3D'color:#0070C0'>108,116,615</span></a></td>
+  <td class=3Dxl6529046></td>
+  <td class=3Dxl6529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7829046 width=3D569 style=3D'height:15.75pt;bor=
+der-top:
+  none;width:427pt'>Metal/ Ore Exports (% of Total Merchandise Exports) *</=
+td>
+  <td class=3Dxl8029046 width=3D166 style=3D'border-top:none;border-left:no=
+ne;
+  width:125pt'><a
+  href=3D"https://data.worldbank.org/indicator/TX.VAL.MMTL.ZS.UN?locations=
+=3DPH"><span
+  style=3D'color:#0070C0'>5.1</span></a></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6829046 width=3D569 style=3D'height:15.75pt;wid=
+th:427pt'>Fuel
+  Exports (% of Total Merchandise Exports) *</td>
+  <td class=3Dxl7229046 width=3D166 style=3D'width:125pt'><a
+  href=3D"https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN?locations=
+=3DPH"><span
+  style=3D'color:#0070C0'>1</span></a></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6829046 width=3D569 style=3D'height:15.75pt;widt=
+h:427pt'>Human
+  Development Index (World Rank)<span style=3D'mso-spacerun:yes'> </span></=
+td>
+  <td class=3Dxl7229046 width=3D166 style=3D'width:125pt'><a
+  href=3D"http://hdr.undp.org/en/content/latest-human-development-index-ran=
+king"><span
+  style=3D'color:#0070C0'>107</span></a></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D23 style=3D'mso-height-source:userset;height:17.25pt'>
+  <td height=3D23 class=3Dxl6829046 width=3D569 style=3D'height:17.25pt;wid=
+th:427pt'>EITI
+  Status</td>
+  <td class=3Dxl7229046 width=3D166 style=3D'width:125pt'><a
+  href=3D"https://eiti.org/philippines"><span style=3D'color:#0070C0'>Satis=
+factory
+  Progress</span></a></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D43 style=3D'mso-height-source:userset;height:32.25pt'>
+  <td height=3D43 class=3Dxl6729046 width=3D569 style=3D'height:32.25pt;wid=
+th:427pt'>* <font
+  class=3D"font029046">World Bank staff estimates through the WITS platform=
+ from
+  the Comtrade database maintained by the United Nations Statistics
+  Division.<span style=3D'mso-spacerun:yes'> </span></font></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl7529046 style=3D'height:15.0pt'></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl7329046 style=3D'height:15.0pt'><a
+  href=3D"https://atlas.cid.harvard.edu/countries/174/export-basket"><span
+  style=3D'color:#0070C0;font-weight:700'>Link to key economic information.=
+</span></a></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl7629046 style=3D'height:15.0pt'></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6929046 style=3D'height:15.75pt'>ELLED Relevant
+  Legislation:</td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr class=3Dxl7129046 height=3D21 style=3D'mso-height-source:userset;heigh=
+t:15.75pt'>
+  <td height=3D21 class=3Dxl7429046 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Philippines=
+/Legislation/Small-Scale%20Mining%20Act.pdf"><span
+  style=3D'color:#0070C0'>People’s Small-Scale Mining Act, 2011</span></a><=
+/td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+ </tr>
+ <tr class=3Dxl7129046 height=3D21 style=3D'mso-height-source:userset;heigh=
+t:15.75pt'>
+  <td height=3D21 class=3Dxl7429046 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Philippines=
+/Legislation/Mining%20Act.pdf"><span
+  style=3D'color:#0070C0'>Philippine Mining Act, 1995<span
+  style=3D'mso-spacerun:yes'> </span></span></a></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+ </tr>
+ <tr class=3Dxl7129046 height=3D21 style=3D'mso-height-source:userset;heigh=
+t:15.75pt'>
+  <td height=3D21 class=3Dxl7429046 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Philippines=
+/Legislation/AO%202010.pdf"><span
+  style=3D'color:#0070C0'>Revised Implementing Rules and Regulations of R.A.
+  7942, 2010<span style=3D'mso-spacerun:yes'> </span></span></a></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7029046 style=3D'height:15.75pt'></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6929046 style=3D'height:15.75pt'>ELLED Relevant=
+ News:</td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7429046 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Philippines=
+/News/Philippines%20lifts%20nine-year%20ban%20on%20new%20mines%20to%20boost=
+%20revenues.pdf"><span
+  style=3D'color:#0070C0'><font class=3D"font629046">April 2021 – </font><f=
+ont
+  class=3D"font529046">Philippines lifts nine-year ban on new mines to boost
+  revenues</font></span></a></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7029046 style=3D'height:15.75pt'></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6929046 style=3D'height:15.75pt'>Analysis and C=
+ase
+  Studies:</td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7429046 colspan=3D8 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Philippines=
+/Analysis%20and%20Case%20Studies/The%20role%20of%20domestic%20policy%20coal=
+itions%20in%20extractive%20industries%20governance.pdf"><span
+  style=3D'color:#0070C0'><font class=3D"font629046">Camba and Singh, (2020=
+) –</font><font
+  class=3D"font529046"> The Role of Domestic Policy Coalitions in Extractive
+  Industries' Governance: Disentangling the Politics of “Responsible Mining=
+” in
+  the Philippines</font></span></a></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7429046 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Philippines=
+/Analysis%20and%20Case%20Studies/Primer%20on%20the%20Philippines%20Minerals=
+%20Industry%202015.pdf"><span
+  style=3D'color:#0070C0'><font class=3D"font629046">Quisumbing Torres (201=
+5) – </font><font
+  class=3D"font529046">Primer on the Philippine Minerals Industry</font></s=
+pan></a></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7429046 colspan=3D2 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Philippines=
+/Analysis%20and%20Case%20Studies/Realizing%20the%20Philippines%20Mining%20P=
+otential%202013.pdf"><span
+  style=3D'color:#0070C0'><font class=3D"font629046">Philippines Senate Eco=
+nomic
+  Planning Office (2013) – </font><font class=3D"font529046">Policy Brief
+  Realizing the Philippines’ Mining Potential</font></span></a></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7429046 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Philippines=
+/Analysis%20and%20Case%20Studies/Revenue%20Sharing%20in%20Mining%202013.pdf=
+"><span
+  style=3D'color:#0070C0'><font class=3D"font629046">Canare and Mendoza (20=
+13) –</font><font
+  class=3D"font529046"> Revenue Sharing in Mining: Insights from the Philip=
+pine
+  Case</font></span></a></td>
+  <td class=3Dxl7729046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl7129046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7029046 style=3D'height:15.75pt'></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+  <td class=3Dxl1529046></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D569 style=3D'width:427pt'></td>
+  <td width=3D166 style=3D'width:125pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>

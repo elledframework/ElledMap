@@ -1,0 +1,1385 @@
+MIME-Version: 1.0
+X-Document-Type: Worksheet
+Content-Location: file:///C:/26799145/Page.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 15">
+<link rel=3DFile-List href=3D"Page_files/filelist.xml">
+<style id=3D"Peru_Workbook_15563_Styles"><!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.font015563
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font515563
+	{color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font615563
+	{color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font715563
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font815563
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font915563
+	{color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.xl1515563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6515563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6615563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6715563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6815563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6915563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7015563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Symbol, serif;
+	mso-font-charset:2;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7115563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#241C15;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7215563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#241C15;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7315563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7415563
+	{color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:top;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;
+	padding-left:9px;
+	mso-char-indent-count:1;}
+.xl7515563
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:9px;
+	mso-char-indent-count:1;}
+.xl7615563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:top;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7715563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7815563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:top;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7915563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8015563
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:top;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;
+	padding-left:9px;
+	mso-char-indent-count:1;}
+.xl8115563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8215563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl8315563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl8415563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8515563
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:9px;
+	mso-char-indent-count:1;}
+.xl8615563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8715563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8815563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8915563
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl9015563
+	{color:#0070C0;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:9px;
+	mso-char-indent-count:1;}
+--></style>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Excel's Publish as=
+ Web
+Page wizard.-->
+<!--If the same item is republished from Excel, all information between the=
+ DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id=3D"Peru_Workbook_15563" align=3Dcenter x:publishsource=3D"Excel">
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D1591 style=3D'bor=
+der-collapse:
+ collapse;table-layout:fixed;width:1194pt'>
+ <col width=3D550 style=3D'mso-width-source:userset;mso-width-alt:20114;wid=
+th:413pt'>
+ <col width=3D145 style=3D'mso-width-source:userset;mso-width-alt:5302;widt=
+h:109pt'>
+ <col width=3D64 span=3D14 style=3D'width:48pt'>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl1515563 width=3D550 style=3D'height:15.0pt;widt=
+h:413pt'></td>
+  <td class=3Dxl8115563 width=3D145 style=3D'width:109pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl1515563 width=3D64 style=3D'width:48pt'></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6515563 style=3D'height:15.75pt'>Peru</td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6615563 width=3D550 style=3D'height:15.75pt;wid=
+th:413pt'>Population</td>
+  <td class=3Dxl8215563 width=3D145 style=3D'width:109pt'><a
+  href=3D"https://data.worldbank.org/indicator/SP.POP.TOTL?locations=3DPE">=
+<span
+  style=3D'color:#0070C0'>32,971,846 (2020)</span></a></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6715563 width=3D550 style=3D'height:15.75pt;wid=
+th:413pt'>Metal/
+  Ore Exports (% of Total Merchandise Exports)</td>
+  <td class=3Dxl8315563 width=3D145 style=3D'width:109pt'><a
+  href=3D"https://data.worldbank.org/indicator/TX.VAL.MMTL.ZS.UN?locations=
+=3DPE"><span
+  style=3D'color:#0070C0'>6.869% (2019)</span></a></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6715563 width=3D550 style=3D'height:15.75pt;wid=
+th:413pt'>Fuel
+  Exports (% of Total Merchandise Exports)</td>
+  <td class=3Dxl8315563 width=3D145 style=3D'width:109pt'><a
+  href=3D"https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN?locations=
+=3DPE"><span
+  style=3D'color:#0070C0'>45.497% (2019)</span></a></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6715563 width=3D550 style=3D'height:15.75pt;wid=
+th:413pt'>Human
+  Development Index (World Rank)</td>
+  <td class=3Dxl8315563 width=3D145 style=3D'width:109pt'><a
+  href=3D"http://hdr.undp.org/en/content/latest-human-development-index-ran=
+king"><span
+  style=3D'color:#0070C0'>79</span></a></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6715563 width=3D550 style=3D'height:15.75pt;wid=
+th:413pt'>EITI
+  Status</td>
+  <td class=3Dxl8315563 width=3D145 style=3D'width:109pt'><a
+  href=3D"https://eiti.org/peru"><span style=3D'color:#0070C0'>Meaningful P=
+rocess</span></a></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D37 style=3D'mso-height-source:userset;height:27.75pt'>
+  <td height=3D37 class=3Dxl6815563 width=3D550 style=3D'height:27.75pt;wid=
+th:413pt'>* <font
+  class=3D"font015563">World Bank staff estimates through the WITS platform=
+ from
+  the Comtrade database maintained by the United Nations Statistics
+  Division.<span style=3D'mso-spacerun:yes'> </span></font></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl6815563 width=3D550 style=3D'height:15.0pt;widt=
+h:413pt'></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8415563 style=3D'height:15.75pt'><a
+  href=3D"https://atlas.cid.harvard.edu/countries/173/export-basket"><span
+  style=3D'color:#0070C0;font-weight:700'>Link to key economic information.=
+</span></a></td>
+  <td class=3Dxl7915563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7915563 style=3D'height:15.75pt'></td>
+  <td class=3Dxl7915563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6915563 style=3D'height:15.75pt'>ELLED Relevant
+  Legislation:</td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl8715563 style=3D'height:15.0pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/Legisl=
+ation/Law%2027506.pdf"><span
+  style=3D'color:#0070C0'>Law Nº 27506<font class=3D"font915563"> (Spanish)=
+</font></span></a></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8715563 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/Legisl=
+ation/Decree%20042-2003-EM.pdf"><span
+  style=3D'color:#0070C0'>Decree 042-2003-EM&nbsp;<font class=3D"font915563=
+">(Spanish)</font></span></a></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl7715563 style=3D'height:15.0pt'>Social Trust Fu=
+nds
+  Regulation</td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7015563 style=3D'height:15.75pt'></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7115563 style=3D'height:15.75pt'>ELLED Relevant
+  News:&#8239;&#8239;&nbsp;</td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8615563 style=3D'height:15.75pt'><a
+  href=3D"https://www.bnamericas.com/es/noticias/cluster-minero-del-sur-de-=
+peru-expandira-sus-horizontes"><font
+  class=3D"font915563">April 2021 –&nbsp;</font><font class=3D"font515563">=
+Southern
+  Peru Mining Cluster will Expand its Horizons </font><font class=3D"font91=
+5563">&nbsp;(Spanish,
+  Paywall)</font></a></td>
+  <td class=3Dxl7215563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8615563 colspan=3D2 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/News/O=
+ffer%20of%20Peruvian%20Mining%20Providers%20and%20Services%20Generates%20In=
+terest%20from%20Australians.pdf"><font
+  class=3D"font915563">April 2021 –</font><font class=3D"font515563">&nbsp;=
+Offer of
+  Peruvian Mining Providers and Services Generates Interest from Australian=
+s</font><font
+  class=3D"font915563"> (Spanish)</font></a></td>
+  <td class=3Dxl7315563></td>
+  <td class=3Dxl7315563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8615563 colspan=3D3 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/News/S=
+upreme%20Decree%20that%20approves%20the%20Regulation%20of%20Mining.pdf"><fo=
+nt
+  class=3D"font915563">November 2020 –&nbsp;</font><font class=3D"font51556=
+3">Supreme
+  Decree that approves the Regulation of Mining Procedures Nº 020-2020-EM</=
+font><font
+  class=3D"font915563"> (Spanish)</font></a></td>
+  <td class=3Dxl7315563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8615563 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/News/K=
+uczynski%20wants%20Peru%20to%20become%20metals%20refining%20hub_%20finance%=
+20minister.pdf"><font
+  class=3D"font915563">June 2016 – </font><font class=3D"font515563">Kuczyn=
+ski
+  Wants Peru to become Metals Refining Hub: Finance Minister</font></a></td>
+  <td class=3Dxl7315563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7215563 style=3D'height:15.75pt'></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7115563 style=3D'height:15.75pt'>Analysis and C=
+ase
+  Studies:</td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8715563 colspan=3D9 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/Case%2=
+0Studies%20and%20Analysis/Beyond-Extraction-Economic-Opportunities-in-Minin=
+g-Communities.pdf"><span
+  style=3D'color:#0070C0'><font class=3D"font915563">Inter-American Develop=
+ment
+  Bank (2020) – </font><font class=3D"font715563">The IDB Presented their R=
+eport
+  “Beyond Extraction: Economic Opportunities in Mining Communities”, via
+  Webinar on September 16th.<span style=3D'mso-spacerun:yes'> </span></font=
+></span></a></td>
+  <td class=3Dxl8815563></td>
+  <td class=3Dxl8815563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8715563 colspan=3D2 style=3D'height:15.75pt'><a
+  href=3D"https://www.sciencedirect.com/science/article/abs/pii/S0301420717=
+30123X?utm_campaign=3Dbuffer&amp;utm_content=3Dbufferd8b0c&amp;utm_medium=
+=3Dsocial&amp;utm_source=3Dtwitter.com&amp;via%3Dihub"><span
+  style=3D'color:#0070C0'><font class=3D"font915563">Oswaldo Molina (2018) =
+– </font><font
+  class=3D"font715563">Innovation in an Unfavorable Context: Local Mining
+  Suppliers in Peru</font><font class=3D"font915563">&nbsp;(Paywall)</font>=
+</span></a></td>
+  <td class=3Dxl8915563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8715563 colspan=3D2 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/Case%2=
+0Studies%20and%20Analysis/OECD%20Local%20Content%20Policies%20In%20Minerals=
+-Exporting%20Countries%20The%20Case%20of%20Peru.pdf"><span
+  style=3D'color:#0070C0'><font class=3D"font915563">Korinek and Ramdoo (20=
+17)
+  –&nbsp;</font><font class=3D"font715563">OECD Local Content Policies In
+  Minerals-Exporting Countries: The Case of Peru&nbsp;</font></span></a></t=
+d>
+  <td class=3Dxl8815563></td>
+  <td class=3Dxl8815563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl8715563 colspan=3D3 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/Case%2=
+0Studies%20and%20Analysis/WP_134_Minería.pdf"><span
+  style=3D'color:#0070C0'><font class=3D"font915563">Alan Fairlie Reinoso (=
+2011) – </font><font
+  class=3D"font715563">Productive Chains of Export Activities in Latin Amer=
+ica
+  The case of Mining in Peru</font><font class=3D"font915563">&nbsp;(Spanis=
+h)</font></span></a></td>
+  <td class=3Dxl8915563></td>
+  <td class=3Dxl8915563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7015563 style=3D'height:15.75pt'></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl6915563 style=3D'height:15.75pt'>Relevant
+  Initiatives:<span style=3D'mso-spacerun:yes'> </span></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7715563 colspan=3D2 style=3D'height:15.75pt'>Be=
+yond
+  Extraction: Economic Opportunities in Mining Communities (<font
+  class=3D"font615563">Completed, </font><font class=3D"font015563">2016-20=
+20)<span
+  style=3D'mso-spacerun:yes'> </span></font></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr class=3Dxl7415563 height=3D21 style=3D'mso-height-source:userset;heigh=
+t:15.75pt'>
+  <td height=3D21 class=3Dxl8515563 colspan=3D2 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/Releva=
+nt%20Iniatives/Beyond-Extraction-Economic-Opportunities-in-Mining-Communiti=
+es-Case-Study.pdf"><span
+  style=3D'color:#0070C0'>—2020 Project Report, Beyond Extraction: Economic
+  Opportunities in Mining Communities</span></a></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl8015563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7415563 width=3D64 style=3D'width:48pt'></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl7715563 style=3D'height:15.75pt'>Mining Cluster=
+ of the
+  South of Peru</td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl1515563></td>
+ </tr>
+ <tr class=3Dxl7515563 height=3D21 style=3D'mso-height-source:userset;heigh=
+t:15.75pt'>
+  <td height=3D21 class=3Dxl8515563 colspan=3D2 style=3D'height:15.75pt'><a
+  href=3D"https://elledframework.github.io/ElledMap/CountryData/Peru/Releva=
+nt%20Iniatives/Mining%20Cluster%20in%20the%20Peruvian%20South%20Prospects%2=
+0for%20Regional%20Development.pdf"><span
+  style=3D'color:#0070C0'>—2019 Technical Report, Mining Cluster in the Per=
+uvian
+  South Prospects for Regional Development<font class=3D"font915563"> (Span=
+ish)</font></span></a></td>
+  <td class=3Dxl8515563></td>
+  <td class=3Dxl8515563></td>
+  <td class=3Dxl9015563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+  <td class=3Dxl7515563></td>
+ </tr>
+ <tr class=3Dxl7615563 height=3D20 style=3D'mso-height-source:userset;heigh=
+t:15.0pt'>
+  <td height=3D20 class=3Dxl7715563 style=3D'height:15.0pt'>“Mesa de Diálog=
+o de
+  Quellaveco”</td>
+  <td class=3Dxl1515563></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7815563 width=3D64 style=3D'width:48pt'></td>
+  <td class=3Dxl7615563 width=3D64 style=3D'width:48pt'></td>
+ </tr>
+ <tr class=3Dxl7515563 height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl8515563 colspan=3D14 style=3D'height:15.0pt'><a
+  href=3D"http://www.regionmoquegua.gob.pe/mesa-de-dialogo/"><span
+  style=3D'color:#0070C0'><font class=3D"font815563">—</font><font
+  class=3D"font715563">2020 Report, Committee for the Monitoring, Follow-up=
+ and
+  Verification of the Agreements of the Dialogue Table to Analyze the Mining
+  Problems of the Department of Moquegua (Ministerial Resolution No.
+  161-2019-PCM)</font><font class=3D"font615563">(Spanish)</font></span></a=
+></td>
+  <td class=3Dxl8515563></td>
+  <td class=3Dxl8515563></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl8915563 style=3D'height:15.0pt'></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+  <td class=3Dxl8115563></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D550 style=3D'width:413pt'></td>
+  <td width=3D145 style=3D'width:109pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>
+
